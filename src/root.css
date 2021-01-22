@@ -7,3 +7,6 @@
  --clr-text: #ffffff;
  background-color: var(--clr-bg);
 }
+#root{
+  margin: 15px;
+}

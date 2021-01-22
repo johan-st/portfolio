@@ -1,1 +1,1 @@
-type Content = { title: string, desc: string }
+type Content = { title: string, desc: string, path: string }
