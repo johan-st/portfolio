@@ -1,0 +1,9 @@
+@import "https://pagecdn.io/lib/normalize/8.0.1/normalize.min.css";
+:root{
+ --clr-bg: #333333;
+ --clr-muted: #444444;
+ --clr-medium: #777777;
+ --clr-bright: #ffffff;
+ --clr-text: #ffffff;
+ background-color: var(--clr-bg);
+}

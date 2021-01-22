@@ -1,0 +1,10 @@
+.contact {
+  text-align: center;
+  grid-area: foot;
+
+
+}
+
+.contact > * {
+  color: var(--clr-text);
+}

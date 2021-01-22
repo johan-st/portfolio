@@ -1,0 +1,14 @@
+.stack {
+  grid-area: stack;
+  margin: 0 auto;
+}
+.stack__headline {
+  font-family: 'Londrina Outline', cursive;
+  font-size: 3rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
