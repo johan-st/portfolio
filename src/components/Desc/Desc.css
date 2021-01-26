@@ -1,7 +1,9 @@
 .description {
+  font-size: .9rem;
   grid-area: desc;
-  padding: .5rem;
+  padding: 1rem;
   background-color: var(--clr-bg);
   border:solid 2px var(--clr-bright);
   /* box-shadow: -1px 2px 5px black; */
+  overflow: hidden;
 }

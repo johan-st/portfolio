@@ -25,13 +25,13 @@
   /* box-shadow: -1px 2px 5px black; */
 }
 .header__title {
-  font-size: calc(2vmin);
+  font-size: calc(3.4vmin);
   line-break: strict;
   line-height: .7;
 }
 .header__subtitle {
   line-height: 0.7;
   line-break: strict;
-  font-size: calc(1.2vmin);
+  font-size: calc(2vmin);
 
 }
