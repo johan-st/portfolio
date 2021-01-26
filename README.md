@@ -1,7 +1,6 @@
 # development
 ## todo
 - responsive
-- overlap stack components
 - animate stack components
 - timeline
 - bring up live versions of prev projects

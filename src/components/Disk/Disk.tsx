@@ -2,8 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Disk.css'
 type DiskProps = {
-  children: string,
+  children: string
   path: string
+  index: number
   active: boolean
 }
 function Disk(props: DiskProps): JSX.Element {
@@ -11,7 +12,10 @@ function Disk(props: DiskProps): JSX.Element {
   classes += props.active ? " stack__disk--active " : ""
 
   return (
-    <li className={classes}>
+    <li className={classes} style={{
+      bottom: props.index * 30,
+      zIndex: 100 - props.index
+    }}>
       <Link to={props.path}><svg width="200" height="100">
         <ellipse
           cx="100" cy="78"
@@ -42,7 +46,7 @@ function Disk(props: DiskProps): JSX.Element {
           </textPath>
         </text>
       </svg>
-      </Link></li>
+      </Link></li >
   )
 }
 

@@ -1,6 +1,7 @@
 .stack__disk{
   cursor: pointer;
   color: var(--clr-text);
+  position: relative;
 }
 .stack__disk:hover{
 text-shadow: rgb(255, 255, 255) 1px 0 10px;
@@ -9,8 +10,8 @@ text-shadow: rgb(255, 255, 255) 1px 0 10px;
 text-shadow: rgb(255, 255, 255) 1px 0 5px;
 }
 svg{
-  height: 200;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   font-size:2rem;
+  overflow: visible;
 }

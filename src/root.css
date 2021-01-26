@@ -7,6 +7,7 @@
  --clr-text: #ffffff;
  background-color: var(--clr-bg);
 }
+* {box-sizing: border-box};
 #root{
   margin: 15px;
 }

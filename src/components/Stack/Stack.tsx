@@ -13,8 +13,8 @@ const Stack = (props: StackProps) => {
       </a>
 
       {
-        props.content.map((c: Content): JSX.Element => {
-          return (<Disk active={false} path={c.path}>{c.title}</Disk>)
+        props.content.map((c: Content, i: number): JSX.Element => {
+          return (<Disk active={false} path={c.path} index={i}>{c.title}</Disk>)
         })
       }
     </section >

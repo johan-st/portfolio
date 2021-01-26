@@ -1,6 +1,7 @@
 .stack {
   grid-area: stack;
   margin: 0 auto;
+  height: calc(79px + (75px * 6));
 }
 .stack__headline {
   font-family: 'Londrina Outline', cursive;
@@ -17,7 +18,7 @@
   color: var(--clr-text);
 }
 .stack__link:hover{
-text-shadow: rgb(255, 255, 255) 1px 0 10px;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
 }
 li {
   list-style-type: none;
