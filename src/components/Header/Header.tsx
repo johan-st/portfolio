@@ -1,11 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Header.css'
 import me from './me.jpg';
 
 const Header = () => {
   return (
     <section className="header">
-      <img className="header__img" src={me} alt="Johan Strand" />
+      <Link to={'/'}>
+        <img className="header__img" src={me} alt="Johan Strand" />
+      </Link>
       <div className="header__card">
         <h1 className="header__title">Johan Strand</h1>
         <h2 className="header__subtitle">full stack developer</h2>

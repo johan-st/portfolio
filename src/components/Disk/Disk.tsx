@@ -36,7 +36,7 @@ function Disk(props: DiskProps): JSX.Element {
           fill="#333" />
         <path id="curve" fill="none" stroke="none" d="M 0 30 A 98 30 0 0 0 200 65 " />
         <text width="500">
-          <textPath startOffset="155" fill="white" textAnchor="middle"
+          <textPath startOffset="150" fill="white" textAnchor="middle"
             dominantBaseline="top" href="#curve">
             {props.children}
           </textPath>

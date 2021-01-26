@@ -8,7 +8,7 @@ type StackProps = {
 const Stack = (props: StackProps) => {
   return (
     <section className="stack">
-      <h3 className="stack__headline" >stack</h3>
+      <h3 className="stack__headline" >this stack</h3>
       {
         props.content.map((c: Content): JSX.Element => {
           return (<Disk active={false} path={c.path}>{c.title}</Disk>)
