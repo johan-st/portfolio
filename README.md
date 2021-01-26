@@ -5,6 +5,7 @@
 - animate stack components
 - timeline
 - bring up live versions of prev projects
+- have content markdown in separate files
 
 # deploy
 link: [live app](https://johan-st.herokuapp.com/)

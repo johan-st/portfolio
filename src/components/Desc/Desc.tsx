@@ -1,6 +1,7 @@
 import React from 'react'
 import './Desc.css'
 import ReactMarkdown from 'react-markdown'
+import gfm from 'remark-gfm'
 type DescProps = {
   content: Content
 }
@@ -9,8 +10,7 @@ type DescProps = {
 const Desc = (props: DescProps): JSX.Element => {
   return (
     <section className="description">
-      <h3>{props.content.title}</h3>
-      <ReactMarkdown linkTarget="_blank">{props.content.markdown}</ReactMarkdown>
+      <ReactMarkdown plugins={[gfm]} linkTarget="_blank">{props.content.markdown}</ReactMarkdown>
     </section>
   )
 }
