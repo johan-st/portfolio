@@ -1,5 +1,4 @@
 .description {
-  font-size: .9rem;
   grid-area: desc;
   padding: 1rem;
   background-color: var(--clr-bg);
