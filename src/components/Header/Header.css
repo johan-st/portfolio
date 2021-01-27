@@ -71,19 +71,19 @@
   .header{
     height: min-content;
     grid-template: 
-    "img card" auto
+    "img card" 100px
     /auto auto;
   }
   .header__img{
-    width:200px;
-    top: -5vmin;
-    left: -5vmin;
+    width:40vw;
+    top: -5vw;
+    left: -5vw;
 
   }
   .header__card {
     position:relative;
     height:min-content;
-    top: auto;
+    top: 1rem;
     right: auto;
     bottom: auto;
   }
