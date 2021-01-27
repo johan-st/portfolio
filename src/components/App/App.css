@@ -5,14 +5,35 @@
   font-size: 16px;
   background-color: var(--clr-bg);
   color: var(--clr-text);
-  margin: 5rem auto;
-  max-width: 900px;
+  margin: 5vmin auto;
+  width: 90vw;
+  max-width: 1400px;
   display: grid;
   gap: 2rem;
   grid-template: 
     "head desc stack" auto
     "foot foot foot" auto 
-    /auto 50% auto;
+    /1fr 2fr auto;
+}
+@media(max-width:1200px){
+   .App {
+    grid-template: 
+    "head head" auto
+    "desc stack" auto
+    "foot foot" auto 
+    /auto auto;
+  }
+}
+
+@media(max-width:720px){
+   .App {
+    grid-template: 
+    "head" auto
+    "stack" auto
+    "desc" auto
+    "foot" auto 
+    /auto auto;
+  }
 }
 
 
