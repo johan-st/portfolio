@@ -6,7 +6,7 @@
   grid-template: 
     "img " auto
     "card" auto 
-    /auto auto;
+    /auto;
     
 }
 .header__card {
