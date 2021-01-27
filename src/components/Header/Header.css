@@ -60,10 +60,10 @@
     bottom: auto;
   }
   .header__title{
-    font-size: calc(5vmin);
+    font-size: calc(6.8vmin);
   }
   .header__subtitle{
-    font-size: calc(3vmin);
+    font-size: calc(4vmin);
   }
 }
 
@@ -87,10 +87,5 @@
     right: auto;
     bottom: auto;
   }
-  .header__title{
-    font-size: calc(6.8vmin);
-  }
-  .header__subtitle{
-    font-size: calc(4vmin);
-  }
+
 }
