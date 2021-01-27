@@ -1,10 +1,9 @@
-import React from 'react'
 import './Stack.css'
 import { Disk } from '..'
+
 type StackProps = {
   content: Content[]
 }
-
 const Stack = (props: StackProps) => {
   return (
     <section className="stack">

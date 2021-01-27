@@ -9,7 +9,7 @@ type DescProps = {
 
 const Desc = (props: DescProps): JSX.Element => {
   return (
-    <section className="description">
+    <section id="desc" className="description">
       <ReactMarkdown plugins={[gfm]} linkTarget="_blank">{props.content.markdown}</ReactMarkdown>
     </section>
   )
