@@ -533,7 +533,7 @@ module.exports = function (webpackEnv) {
             },
             // Adds raw-loader
             {
-              test: /\.txt$/i,
+              test: /\.md$/i,
               use: 'raw-loader',
             },
             // "file" loader makes sure those assets get served by WebpackDevServer.
