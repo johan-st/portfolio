@@ -2,6 +2,7 @@ import * as me_md from './md/me.md'
 import * as content_md from './md/content.md'
 import * as react_md from './md/react.md'
 import * as node_md from './md/node.md'
+import * as typescript_md from './md/typescript.md'
 import * as docker_md from './md/docker.md'
 import * as heroku_md from './md/heroku.md'
 import * as other_md from './md/other.md'
@@ -27,6 +28,11 @@ const content: Content[] = [
     title: 'node',
     markdown: node_md,
     path: '/node'
+  },
+    {
+    title: 'typescript',
+    markdown: typescript_md,
+    path: '/typescript'
   },
   {
     title: 'docker',

@@ -16,10 +16,11 @@ function Disk(props: DiskProps): JSX.Element {
   classes += props.active ? " stack__disk--active " : ""
 
   return (
-    <li onClick={() => scroller.scrollTo("desc", {})} className={classes} style={{
-      bottom: props.index * 30,
-      zIndex: 100 - props.index
-    }}>
+    <li onClick={() => scroller.scrollTo("desc", {})} className={classes}
+      style={{
+        bottom: props.index * 30,
+        zIndex: 100 - props.index
+      }}>
       <Link to={props.path}><svg width="200" height="100">
         <ellipse
           cx="100" cy="78"

@@ -1,11 +1,14 @@
 # heroku
 
-This app is deployed as a container through heroku. As a developer it is as easy as running three commands:
-    
-- __npm run build__    
+At the moment this app is deployed on _heroku_. As one of many service providers, _heroku_ stands out as a free _(for small projects)_ and streamlined experience. I build, push and relese my app with these commands. 
 
-- __heroku container:push web -a johan-st__
 
-- __heroku container:release web -a johan-st__
-
-In this case I have chosen to priotitize speed and easy of use over other considerations such as enforced tests.  
+```sh
+npm run build
+```
+```sh
+heroku container:push web -a johan-st
+```
+```sh
+heroku container:release web -a johan-st
+```

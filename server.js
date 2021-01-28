@@ -1,12 +1,16 @@
-var express = require('express');
+const path = require('path');
+const express = require('express');
+const app = express();
 
-var PORT = process.env.PORT || 80;
-var BUILD_DIR = process.env.BUILD_DIR || './build';
-
-var app = express();
+const PORT = process.env.PORT || 80;
+const BUILD_DIR = process.env.BUILD_DIR || path.join(__dirname, 'build');
 
 app.use(express.static(BUILD_DIR));
 
+app.get('*', function (req, res) {
+  res.sendFile(path.join(BUILD_DIR, 'index.html'));
+});
+
 app.listen(PORT, function () {
-  console.log('express is listening on http://localhost:' + PORT);
+  console.log('Server is listening on port ' + PORT);
 });
