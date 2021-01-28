@@ -8,8 +8,9 @@ import gfm from 'remark-gfm'
 const renderers = {
   code: ({ language, value }: { language: any, value: any }) => {
     return <SyntaxHighlighter
-      showLineNumbers
-      style={theme} language={language} children={value} />
+      style={theme}
+      language={language}
+      children={value} />
   }
 }
 
