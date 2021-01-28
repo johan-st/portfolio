@@ -15,13 +15,12 @@ const Viewer = (props: ViewerProps) => (
         (rProps) => <Desc {...rProps} content={defaultContent} />
       } />
       {props.content.map(c =>
-        <Route exact path={c.path} render={
+        <Route key={c.title + "_route"} exact path={c.path} render={
           (rProps) => <Desc {...rProps} content={c} />
         } />
       )}
     </Switch>
     <Stack content={props.content} />
-
   </>
 )
 

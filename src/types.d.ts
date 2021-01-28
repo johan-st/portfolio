@@ -1,1 +1,1 @@
-type Content = { title: string, markdown: string, path: string }
+type Content = { title: string, markdown: import("*.md"), path: string }

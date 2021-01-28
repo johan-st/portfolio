@@ -13,7 +13,7 @@ const Stack = (props: StackProps) => {
 
       {
         props.content.map((c: Content, i: number): JSX.Element => {
-          return (<Disk active={false} path={c.path} index={i}>{c.title}</Disk>)
+          return (<Disk key={c.title + "_disk"} active={false} path={c.path} index={i}>{c.title}</Disk>)
         })
       }
     </section >
