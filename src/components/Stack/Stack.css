@@ -1,7 +1,6 @@
 .stack {
   grid-area: stack;
   margin: 0 auto;
-  height: calc(79px + (75px * 6));
 }
 .stack__headline {
   font-family: 'Londrina Outline', cursive;
@@ -22,6 +21,4 @@
 }
 li {
   list-style-type: none;
-}
-@media(max-width:720px){
 }

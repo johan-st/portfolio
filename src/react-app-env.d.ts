@@ -8,11 +8,11 @@ declare namespace NodeJS {
     readonly PUBLIC_URL: string;
   }
 }
-
+// EDITS
 declare module '*.md' {
   const content: string;
   export default content;
-}
+} // EDITS END
 
 declare module '*.avif' {
   const src: string;

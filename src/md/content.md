@@ -1,15 +1,20 @@
 # Content Management 
-This page has no need of advanced content management but is generated from content in json and markdown format. I've found this to be a fast and simple way to manage content.
+This page has no need of advanced content management. Here I store these descriptions as markdown in separate _*.md_-files. I import the markdwn into an object I call content _(see example below)_. 
 
-The changes needed to have the content be fetched through an external api is minimal. Good practice and in my opinion, easy to use.
+The _content_ object is then used as a source for generating this page including the stack and these descriptions. 
 
-To illustrate, here is an _example json-object._
+I've found this to be a fast and simple way to manage content in smaller projects, furthermore the content object could easily be fetched via an api or similar.
 
-\`\`\`bash
-{
-  title: "content",
-  markdown: "# Content... ",
-  path: '/content'
-}
-\`\`\`
-    
+_example:_
+```ts
+import * as content_md from './md/content.md'
+
+const content: Content[] = [
+  {
+    title: 'Content',
+    markdown: content_md,
+    path: '/content'
+  },... ]
+
+export { content }
+```

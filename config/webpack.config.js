@@ -531,7 +531,7 @@ module.exports = function (webpackEnv) {
                 'sass-loader'
               ),
             },
-            // Adds raw-loader
+            // raw-loader
             {
               test: /\.md$/i,
               use: 'raw-loader',
