@@ -5,7 +5,6 @@ import * as node_md from './md/node.md'
 import * as typescript_md from './md/typescript.md'
 import * as docker_md from './md/docker.md'
 import * as heroku_md from './md/heroku.md'
-import * as other_md from './md/other.md'
 
 const defaultContent = {
   title: 'default',
@@ -45,9 +44,9 @@ const content: Content[] = [
     path: '/heroku'
   },
   {
-    title: 'other tech',
-    markdown: other_md,
-    path: '/other'
+    title: 'me',
+    markdown: me_md,
+    path: '/'
   }
 ]
 export { content, defaultContent }

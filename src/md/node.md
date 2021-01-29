@@ -1,9 +1,10 @@
 # node & express
 This page is served by a very simplistic server. 
 
-I am handling static content with the built in `express.static()`. All other GET-requests return the html for the **S**ingle **P**age **A**pplication which handles routes. 
+I am handling static content with the built-in `express.static()`. All other GET-requests return the html for the **S**ingle **P**age **A**pplication.
 
 ## Server.js
+(yep, this is all there is)
 ```js
 const path = require('path');
 const express = require('express');
