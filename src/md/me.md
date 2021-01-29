@@ -56,6 +56,7 @@ I have always had an interest in technology and computer science and have mainly
 - adobe **XD**
 - adobe **photoshop**
 - adobe **illustrator**
+- **figma**
 - **windows server** (2016)
 - **linux** (bash)
 
