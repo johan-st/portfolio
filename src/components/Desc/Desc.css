@@ -3,6 +3,7 @@
   grid-area: desc;
   padding: 1rem;
   background-color: var(--clr-bg);
-  border:solid 2px var(--clr-bright);
+  border:solid 2px var(--clr-border);
   overflow: hidden;
+  resize: horizontal;
 }

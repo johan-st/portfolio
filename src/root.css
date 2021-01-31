@@ -2,15 +2,17 @@
 :root{
  --clr-bg: #333333;
  --clr-muted: #444444;
- --clr-medium: #777777;
+ --clr-border: #777777;
+ --clr-disk: #777777;
  --clr-bright: #ffffff;
  --clr-text: #ffffff;
- --clr-accent: #f80;
-
+ --clr-accent: #ff8800;
  background-color: var(--clr-bg);
 }
+
 * {box-sizing: border-box};
 #root{
   margin: 15px;
 }
+
 a{color:var(--clr-medium)}

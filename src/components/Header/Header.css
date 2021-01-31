@@ -1,45 +1,47 @@
 .header {
   grid-area: head;
   display: grid;
-  height: 20vw;
   grid-template: 
-  "imag null" 7vw
+  "imag null" 5vw
   "imag card" 12vw
-  "imag navi" auto
+  "imag navi" 5vw
   /30vw auto;
   
 }
 .header__card {
   grid-area: card;
   z-index: 1;
-  padding:0 1vw;
+  padding: 0 1vw;
   background-color: var(--clr-bg);
   color: var(--clr-text);
-  border:solid 2px var(--clr-bright);
+  border:solid 2px var(--clr-border);
   width: max-content;
   height: max-content;
   text-decoration: none;
 }
+
 .header__img {
   border-radius:50%;
-  border: solid 2px var(--clr-bright);
+  border: solid 2px var(--clr-border);
   width:40vw;
   position: absolute;
   top: -5vw;
   left:-5vw;
 }
+
 .header__img-link {
   grid-area: imag;
   width:100%;
 }
+
 .header__title {
   font-size: calc(6.6vmin);
   line-break: strict;
   line-height: 0;
 }
+
 .header__subtitle {
   line-height: 0;
   line-break: strict;
   font-size: calc(4vmin);
-
 }
