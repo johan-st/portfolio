@@ -2,13 +2,18 @@
   cursor: pointer;
   color: var(--clr-text);
   position: relative;
+  width: 100px;
+  height:auto;
 }
+
 .stack__disk:hover{
 text-shadow: rgb(255, 255, 255) 1px 0 10px;
 }
+
 .stack__disk--active{
 text-shadow: rgb(255, 255, 255) 1px 0 5px;
 }
+
 svg{
   font-family: 'Courier New', Courier, monospace;
   text-align: center;

@@ -1,0 +1,8 @@
+.stackViewer{
+  grid-area: view;
+  display: grid;
+  gap: inherit;
+  grid-template:
+  "desc stack" auto
+  /auto auto;
+}

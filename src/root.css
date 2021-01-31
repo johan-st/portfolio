@@ -5,6 +5,7 @@
  --clr-medium: #777777;
  --clr-bright: #ffffff;
  --clr-text: #ffffff;
+ --clr-accent: #f80;
 
  background-color: var(--clr-bg);
 }

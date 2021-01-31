@@ -8,7 +8,6 @@ While the technology I am most familiar with today is the **MERN**-stack _(**M**
 
 I have always had an interest in technology and computer science and have mainly worked in the broad IT-field _(and for a while as a photographer)_. I have related studies from KTH and University West.
 
-
 ## .. a more complete list of my abilities.
 ### **languages**
 - **TypeScript**
@@ -17,7 +16,7 @@ I have always had an interest in technology and computer science and have mainly
 - **css**
 - **JavaScript**
 #### used but need refreshing 
-- **C#** (& **.net**)
+- **C#** (& .net)
 - **go**
 - **python**
 - **java**
@@ -26,7 +25,7 @@ I have always had an interest in technology and computer science and have mainly
 
 
 ### development
-- **React**
+- **React** (& redux)
 - **elm-ui**
 - **GraphQL**
 - **mongoDB**
