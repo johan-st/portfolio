@@ -10,20 +10,16 @@
   width:100px;
   animation-name: unstack;
   animation-duration: .5s;
-}
-.stack__disk:hover{
-text-shadow: rgb(255, 255, 255) 1px 0 10px;
-}
-
-.stack__disk--active{
-text-shadow: rgb(255, 255, 255) 1px 0 5px;
-}
-
-svg{
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   font-size:2rem;
   overflow: visible;
+}
+.stack__disk:hover{
+text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+.stack__disk--active{
+text-shadow: rgb(255, 255, 255) 1px 0 5px;
 }
 
 @keyframes unstack { 
