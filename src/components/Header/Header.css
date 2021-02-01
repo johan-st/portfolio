@@ -2,10 +2,10 @@
   grid-area: head;
   display: grid;
   grid-template: 
-  "imag null" 5vw
-  "imag card" 12vw
-  "imag navi" 5vw
-  /30vw auto;
+  "imag null" 6vw
+  "imag card" 14vw
+  "imag navi" 6vw
+  /25vw auto;
   
 }
 .header__card {
