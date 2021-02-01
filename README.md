@@ -1,15 +1,16 @@
-# development
-## todo
-- active and hover state contrast
-- animate stack components
+link: [live app](https://johan-st.herokuapp.com/)
+
+# Portfolio
+
+## idea
+This is my personal portfolio. It is based on the idea of showcasing the technologies and solutions of projects.
+
+## current
+First off I have focused on pressenting the tech-stack this portfolio is build on. 
+
+## future
+I will pressent more of my projects.
+
+### todo
 - timeline
 - bring up live versions of prev projects
-
-# deploy
-link: [live app](https://johan-st.herokuapp.com/)
-```bash
-heroku login
-heroku container:login
-heroku container:push web -a johan-st
-heroku container:release web -a johan-st
-```
