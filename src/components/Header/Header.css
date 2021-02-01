@@ -46,3 +46,7 @@
   line-break: strict;
   font-size: calc(4vmin);
 }
+.header__card:focus,
+.header__card:hover{
+  color: var(--clr-text);
+}

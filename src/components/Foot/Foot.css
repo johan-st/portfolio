@@ -3,7 +3,3 @@
   grid-area: foot;
   height: 33vh;
 }
-
-.contact > * {
-  color: var(--clr-text);
-}
