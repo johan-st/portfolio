@@ -21,6 +21,8 @@
 }
 .header__nav-link--active{
   font-style: normal;
+  color: var(--clr-accent2);
+
   font-weight: 900;
   text-transform: uppercase;
   text-decoration: underline double;
