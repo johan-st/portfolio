@@ -45,7 +45,7 @@ function Disk(props: DiskProps): JSX.Element {
             fill="var(--clr-bg)" />
           <path id="curve" fill="none" stroke="none" d="M 0 30 A 98 30 0 0 0 200 65 " />
           <text width="500">
-            <textPath startOffset="150" fill="var(--clr-text)" textAnchor="middle"
+            <textPath startOffset="150" fill={props.active ? "var(--clr-accent)" : "var(--clr-text)"} textAnchor="middle"
               dominantBaseline="top" href="#curve">
               {props.children}
             </textPath>
