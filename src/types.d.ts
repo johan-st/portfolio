@@ -1,13 +1,20 @@
-type Content = { title: string, markdown: import("*.md"), path: string }
+type Content = { 
+  title: string, 
+  markdown: import("*.md"), 
+  path: string 
+}
 
-type SectionTitle = string
+type Project = { 
+  path: string
+  title: string
+  short: string
+  overview:Content
+  content:Content[]
+  thumb: import("*.png") 
+}
 
-type StackContent = {
-    overview:Content,
-    content:Content[]
-  }
-  
 type ContentModel = {
-  stack: StackContent
-  other:Content[]
+  projects: Project[]
+  about: Content
+  contact: Content
 }

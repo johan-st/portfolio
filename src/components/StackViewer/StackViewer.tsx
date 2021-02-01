@@ -4,7 +4,7 @@ import { Desc, Stack } from '..'
 import './StackViewer.css'
 
 type StackViewerProps = {
-  stack: StackContent
+  stack: Project
 }
 
 const StackViewer = (props: StackViewerProps) => {
@@ -22,7 +22,7 @@ const StackViewer = (props: StackViewerProps) => {
           } />
         )}
       </Switch>
-      <Stack content={props.stack.content} />
+      <Stack stack={props.stack} />
     </div>
   )
 }

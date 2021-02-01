@@ -6,7 +6,22 @@ import Desc from "./Desc/Desc";
 import Header from "./Header/Header";
 import Stack from "./Stack/Stack";
 import App from "./App/App";
-import Main from "./Main/Main";
+import MD from "./MD/MD";
 import Nav from "./Nav/Nav";
+import Projects from "./Projects/Projects";
+import Project from "./Project/Project";
 
-export { Disk , Foot, Viewer, StackViewer, Desc, Header, Stack, App, Main, Nav}
+export 
+  { Disk
+  , Foot
+  , Viewer
+  , StackViewer
+  , Desc
+  , Header
+  , Stack
+  , App
+  , MD
+  , Nav
+  , Projects
+  , Project
+  }

@@ -15,8 +15,10 @@
   font-size:2rem;
   overflow: visible;
 }
-.stack__disk:hover{
+.stack__disk:hover, 
+.stack__disk:focus {
   text-shadow: var(--clr-accent) 1px 0 10px;
+  transition: all 0.1s ease-out;
 }
 .stack__disk--active{
   text-shadow: var(--clr-accent)  1px 0 10px;

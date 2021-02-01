@@ -1,0 +1,33 @@
+.project{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  margin:1rem;
+  border: 2px var(--clr-border) solid;
+  text-decoration: none;
+}
+.project__heading {
+  margin:1rem auto;
+  text-justify: center;
+}
+.project__short{
+  margin: 0 auto;
+}
+.project__card{
+  transition: all 250ms ease;
+  display: flex;
+  padding:1rem;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  max-width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.project__card:hover,
+.project__card:focus{
+  background-color: rgba(0,0,0,0.8);
+}

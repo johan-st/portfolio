@@ -2,10 +2,10 @@
   grid-area: head;
   display: grid;
   grid-template: 
-  "imag null" 5vw
-  "imag card" 12vw
-  "imag navi" 5vw
-  /30vw auto;
+  "imag null" 4vw
+  "imag card" 15vw
+  "imag navi" 6vw
+  /25vw auto;
   
 }
 .header__card {
@@ -14,7 +14,7 @@
   padding: 0 1vw;
   background-color: var(--clr-bg);
   color: var(--clr-text);
-  border:solid 2px var(--clr-border);
+  border:solid 2px var(--clr-text);
   width: max-content;
   height: max-content;
   text-decoration: none;

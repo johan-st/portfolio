@@ -5,16 +5,27 @@ The _content_ object is the source for generating the majority of this page incl
 
 I've found this to be a fast and simple way to manage content in smaller projects. The content object could easily be fetched via an API or similar in the future.
 
-_example:_
+### Content Model
 ```ts
-import * as content_md from './md/content.md'
+type ContentModel = {
+    projects: Project[]
+    about: Content
+    contact: Content
+  }
+}
 
-const content: Content[] = [
-  {
-    title: 'Content',
-    markdown: content_md,
-    path: '/content'
-  },... ]
+type Project = { 
+  path: string
+  title: string
+  short: string
+  overview:Content
+  content:Content[]
+  thumb: import("*.png") 
+}
 
-export { content }
+type Content = { 
+    title: string, 
+    markdown: import("*.md"), 
+    path: string 
+}
 ```
