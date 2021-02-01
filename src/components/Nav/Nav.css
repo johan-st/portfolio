@@ -1,0 +1,16 @@
+.header__nav{
+  grid-area: navi;
+  z-index: 5;
+}
+.header__nav-list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  
+  
+}
+.header__nav-link{
+  font-size: 1rem;
+  padding: .5rem;
+  color: var(--clr-accent);
+}

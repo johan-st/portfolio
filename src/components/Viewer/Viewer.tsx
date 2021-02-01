@@ -1,26 +1,22 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { Desc, Stack } from '..'
-import { defaultContent } from '../../content'
+import { StackViewer, Main } from '..'
+
 
 type ViewerProps = {
-  content: Content[]
-  defaultContent: Content
+  content: ContentModel
 }
 
 const Viewer = (props: ViewerProps) => (
   <>
     <Switch>
-      < Route exact path='/' render={
-        (rProps) => <Desc {...rProps} content={defaultContent} />
+      < Route path='/stack' render={
+        (rProps) => <StackViewer {...rProps} stack={props.content.stack} />
       } />
-      {props.content.map(c =>
-        <Route key={c.title + "_route"} exact path={c.path} render={
-          (rProps) => <Desc {...rProps} content={c} />
-        } />
-      )}
+      <Route path='/' render={
+        (_) => <Main content={props.content.other[0]} />
+      } />
     </Switch>
-    <Stack content={props.content} />
   </>
 )
 

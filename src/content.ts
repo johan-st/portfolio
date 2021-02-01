@@ -5,49 +5,54 @@ import * as node_md from './md/node.md'
 import * as typescript_md from './md/typescript.md'
 import * as docker_md from './md/docker.md'
 import * as heroku_md from './md/heroku.md'
-import * as other_md from './md/other.md'
+import * as overview_md from './md/overview.md'
 
-const defaultContent = {
-  title: 'default',
-  markdown: me_md,
-  path: '/'
-}
-
-const content: Content[] = [
+const content:ContentModel =
   {
-    title: 'Content',
-    markdown: content_md,
-    path: '/content'
-  },
-  {
-    title: 'React',
-    markdown: react_md,
-    path: '/react'
-  },
-  {
-    title: 'node',
-    markdown: node_md,
-    path: '/node'
-  },
+  other:[
     {
-    title: 'typescript',
-    markdown: typescript_md,
-    path: '/typescript'
-  },
-  {
-    title: 'docker',
-    markdown: docker_md,
-    path: '/docker'
-  },
-  {
-    title: 'Heroku',
-    markdown: heroku_md,
-    path: '/heroku'
-  },
-  {
-    title: 'other tech',
-    markdown: other_md,
-    path: '/other'
+      title: 'about',
+      markdown: me_md,
+      path: '/'
+    }],
+  stack: {
+    overview:
+      {
+        title: 'overview',
+        markdown: overview_md,
+        path: '/'
+    },
+    content:[
+    {
+      title: 'Content',
+      markdown: content_md,
+      path: '/content'
+    },
+    {
+      title: 'React',
+      markdown: react_md,
+      path: '/react'
+    },
+    {
+      title: 'node',
+      markdown: node_md,
+      path: '/node'
+    },
+      {
+      title: 'typescript',
+      markdown: typescript_md,
+      path: '/typescript'
+    },
+    {
+      title: 'docker',
+      markdown: docker_md,
+      path: '/docker'
+    },
+    {
+      title: 'Heroku',
+      markdown: heroku_md,
+      path: '/heroku'
+    }]
   }
-]
-export { content, defaultContent }
+}
+export { content }

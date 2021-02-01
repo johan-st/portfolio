@@ -1,0 +1,16 @@
+.stackViewer{
+  grid-area: view;
+  display: grid;
+  gap: inherit;
+  grid-template:
+  "desc stack" auto
+  /auto auto;
+}
+@media (max-width:550px){
+  .stackViewer{
+  grid-template:
+  "stack" auto
+  "desc" auto
+  / auto;
+  }
+}
