@@ -8,6 +8,7 @@
   margin:1rem;
   border: 2px var(--clr-border) solid;
   text-decoration: none;
+  color: var(--clr-text);
 }
 .project__heading {
   margin:1rem auto;
@@ -25,9 +26,16 @@
   flex-direction: column;
   height: 100%;
   max-width: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
 }
 .project__card:hover,
 .project__card:focus{
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.2);
+  color: transparent;
+
 }
+.project:hover,
+.project:focus{
+  border-color:  var(--clr-text);
+}
+
