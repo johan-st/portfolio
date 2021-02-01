@@ -18,12 +18,13 @@
   width: max-content;
   height: max-content;
   text-decoration: none;
+  margin: 0 auto;
 }
 
 .header__img {
   border-radius:50%;
   border: solid 2px var(--clr-border);
-  width:40vw;
+  width:35vw;
   position: absolute;
   top: -5vw;
   left:-5vw;
