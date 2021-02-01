@@ -1,26 +1,33 @@
 import * as me_md from './md/me.md'
-import * as content_md from './md/content.md'
-import * as react_md from './md/react.md'
-import * as node_md from './md/node.md'
-import * as typescript_md from './md/typescript.md'
-import * as docker_md from './md/docker.md'
-import * as heroku_md from './md/heroku.md'
-import * as overview_md from './md/overview.md'
+import * as content_md from './md/portfolio/content.md'
+import * as react_md from './md/portfolio/react.md'
+import * as node_md from './md/portfolio/node.md'
+import * as typescript_md from './md/portfolio/typescript.md'
+import * as docker_md from './md/portfolio/docker.md'
+import * as heroku_md from './md/portfolio/heroku.md'
+import * as overview_md from './md/portfolio/overview.md'
+import * as contact_md from './md/contact.md'
 
 const content:ContentModel =
   {
-  other:[
+  about:
     {
       title: 'about',
       markdown: me_md,
       path: '/'
-    }],
-  stack: {
+    },
+  contact:{
+      title: 'contact',
+      markdown: contact_md,
+      path: '/contact'
+    },
+  portfolio: {
+    path: '/portfolio',
     overview:
       {
         title: 'overview',
         markdown: overview_md,
-        path: '/'
+        path: '/overview'
     },
     content:[
     {

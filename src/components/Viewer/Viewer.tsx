@@ -10,11 +10,17 @@ type ViewerProps = {
 const Viewer = (props: ViewerProps) => (
   <>
     <Switch>
-      < Route path='/stack' render={
-        (rProps) => <StackViewer {...rProps} stack={props.content.stack} />
+      < Route path={props.content.portfolio.path} render={
+        (rProps) => <StackViewer {...rProps} stack={props.content.portfolio} />
+      } />
+      < Route path={props.content.contact.path} render={
+        (rProps) => <Main {...rProps} content={props.content.contact} />
+      } />
+      < Route path={'/projects'} render={
+        (rProps) => <Main {...rProps} content={props.content.about} />
       } />
       <Route path='/' render={
-        (_) => <Main content={props.content.other[0]} />
+        (_) => <Main content={props.content.about} />
       } />
     </Switch>
   </>

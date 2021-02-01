@@ -22,7 +22,7 @@ const StackViewer = (props: StackViewerProps) => {
           } />
         )}
       </Switch>
-      <Stack content={props.stack.content} />
+      <Stack stack={props.stack} />
     </div>
   )
 }

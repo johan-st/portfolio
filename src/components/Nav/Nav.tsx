@@ -7,8 +7,8 @@ const Nav = () => {
     <nav className="header__nav">
       <ul className="header__nav-list">
         <li><Link className="header__nav-link" to="/">about</Link></li>
-        <li><Link className="header__nav-link" to="/stack">stack</Link></li>
-        {/* <li><Link className="header__nav-link" to="/contact">contact</Link></li> */}
+        <li><Link className="header__nav-link" to="/projects">projects</Link></li>
+        <li><Link className="header__nav-link" to="/contact">contact</Link></li>
         {/* <li><Link className="header__nav-link" to="/projects">projects</Link></li> */}
       </ul>
     </nav>
