@@ -1,9 +1,9 @@
 .stack__disk{
   cursor: pointer;
-  color: var(--clr-text);
   position: relative;
   width: 200px;
   height:auto;
+  transition: all 600ms ease;
 }
 .stack__disk-svg{
   height:100px;
@@ -17,12 +17,19 @@
 }
 .stack__disk:hover, 
 .stack__disk:focus {
-  text-shadow: var(--clr-accent) 1px 0 10px;
-  transition: all 0.1s ease-out;
+  stroke: var(--clr-accent);
+
+}
+.stack__disk-textpath
+{
+  fill: var(--clr-text);
+  
 }
 
 .stack__disk--active{
-  text-shadow: var(--clr-accent)  1px 0 10px;
+  transform: translate(-20px, 10px);
+  /* --clr-disk:var(--clr-accent); */
+  stroke:var(--clr-accent);
 }
 @keyframes unstack { 
   0% {height:75px;}

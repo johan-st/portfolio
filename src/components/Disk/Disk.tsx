@@ -43,9 +43,9 @@ function Disk(props: DiskProps): JSX.Element {
             strokeWidth="2"
             strokeLinecap="round"
             fill="var(--clr-bg)" />
-          <path id="curve" fill="none" stroke="none" d="M 0 30 A 98 30 0 0 0 200 65 " />
+          <path id="curve" fill="none" stroke="none" d="M 0 30 A 98 30 0 0 0 200 65" />
           <text width="500">
-            <textPath startOffset="150" fill={props.active ? "var(--clr-accent2)" : "var(--clr-text)"} textAnchor="middle"
+            <textPath className="stack__disk-textpath" startOffset="150" textAnchor="middle"
               dominantBaseline="top" href="#curve">
               {props.children}
             </textPath>

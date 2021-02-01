@@ -30,7 +30,7 @@
 }
 .project__card:hover,
 .project__card:focus{
-  background-color: rgba(0,0,0,0.2);
+  background-color: transparent;
   color: transparent;
 
 }
