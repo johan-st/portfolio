@@ -13,11 +13,8 @@
   margin-bottom: 1rem;
 }
 .stack__link{
+  color:var(--clr-text);
   text-decoration: none;
-  color: var(--clr-text);
-}
-.stack__link:hover{
-  text-shadow: rgb(255, 255, 255) 1px 0 10px;
 }
 li {
   list-style-type: none;

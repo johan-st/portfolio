@@ -16,14 +16,17 @@
   padding: 0.5rem .25rem;
   font-size: 1rem;
   color: var(--clr-accent);
-  text-transform: lowercase;
   text-decoration: underline dotted;
 }
+.header__nav-link:hover,
+.header__nav-link:focus{
+  color: var(--clr-accent2);
+}
+
 .header__nav-link--active{
   font-style: normal;
   color: var(--clr-accent2);
-
+text-transform: uppercase;
   font-weight: 900;
-  text-transform: uppercase;
   text-decoration: underline double;
 }
