@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import { scroller } from 'react-scroll'
+import { scroller } from 'react-scroll'
 import './Disk.css'
 
 type DiskProps = {
@@ -15,8 +15,7 @@ function Disk(props: DiskProps): JSX.Element {
   let classes = "stack__disk"
   classes += props.active ? " stack__disk--active " : ""
   return (
-    <li className={classes}
-      // <li onClick={() => scroller.scrollTo("desc", {})} className={classes}
+    <li onClick={() => scroller.scrollTo("desc", {})} className={classes}
       style={{
         bottom: props.index * 30,
         zIndex: 100 - props.index

@@ -9,7 +9,6 @@ type StackViewerProps = {
 
 const StackViewer = (props: StackViewerProps) => {
   const match = useRouteMatch();
-  console.log(match);
 
   return (
     <div className="stackViewer">

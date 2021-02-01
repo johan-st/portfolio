@@ -16,12 +16,11 @@
   overflow: visible;
 }
 .stack__disk:hover{
-text-shadow: rgb(255, 255, 255) 1px 0 10px;
+  text-shadow: var(--clr-accent) 1px 0 10px;
 }
 .stack__disk--active{
-text-shadow: rgb(255, 255, 255) 1px 0 5px;
+  text-shadow: var(--clr-accent)  1px 0 10px;
 }
-
 @keyframes unstack { 
   0% {height:75px;}
   33% {height:105px;}
