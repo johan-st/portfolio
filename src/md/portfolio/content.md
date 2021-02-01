@@ -13,6 +13,7 @@ type ContentModel = {
     contact: Content
   }
 }
+
 type Project = { 
   path: string
   title: string
@@ -21,8 +22,10 @@ type Project = {
   content:Content[]
   thumb: import("*.png") 
 }
+
 type Content = { 
     title: string, 
     markdown: import("*.md"), 
     path: string 
+}
 ```

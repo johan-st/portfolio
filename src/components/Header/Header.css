@@ -2,8 +2,8 @@
   grid-area: head;
   display: grid;
   grid-template: 
-  "imag null" 6vw
-  "imag card" 14vw
+  "imag null" 4vw
+  "imag card" 15vw
   "imag navi" 6vw
   /25vw auto;
   
