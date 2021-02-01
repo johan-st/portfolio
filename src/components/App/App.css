@@ -6,7 +6,7 @@
   color: var(--clr-text);
   margin: 2vw auto;
   width: 96vw;
-  max-width: 900px;
+  max-width: 960px;
   display: grid;
   gap: 2rem;
   grid-template: 

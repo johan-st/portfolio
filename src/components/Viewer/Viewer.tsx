@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { StackViewer, Main } from '..'
+import { MD, Projects } from '..'
 
 
 type ViewerProps = {
@@ -10,17 +10,15 @@ type ViewerProps = {
 const Viewer = (props: ViewerProps) => (
   <>
     <Switch>
-      < Route path={props.content.portfolio.path} render={
-        (rProps) => <StackViewer {...rProps} stack={props.content.portfolio} />
+      < Route path={"/projects"} render={
+        (rProps) => <Projects {...rProps} projects={props.content.projects} />
       } />
       < Route path={props.content.contact.path} render={
-        (rProps) => <Main {...rProps} content={props.content.contact} />
+        (rProps) => <MD {...rProps} content={props.content.contact} />
       } />
-      < Route path={'/projects'} render={
-        (rProps) => <Main {...rProps} content={props.content.about} />
-      } />
+
       <Route path='/' render={
-        (_) => <Main content={props.content.about} />
+        (_) => <MD content={props.content.about} />
       } />
     </Switch>
   </>

@@ -1,16 +1,16 @@
 import React from 'react'
 import { Desc } from "..";
-import './Main.css'
-type MainProps = {
+import './MD.css'
+type MDProps = {
   content: Content
 }
 
-const Main = (props: MainProps) => {
+const MD = (props: MDProps) => {
   return (
-    <article className="main">
+    <article className="markdown">
       <Desc content={props.content} />
     </article>
   )
 }
 
-export default Main
+export default MD

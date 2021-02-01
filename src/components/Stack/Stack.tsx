@@ -6,7 +6,7 @@ import { scroller } from 'react-scroll'
 import './Stack.css'
 
 type StackProps = {
-  stack: StackContent
+  stack: Project
 }
 const Stack = (props: StackProps) => {
   const numOfDisks = props.stack.content.length
@@ -21,8 +21,8 @@ const Stack = (props: StackProps) => {
       height: numOfDisks * 75 + 80 + 'px'
     }}>
 
-      <Link className="stack__link" onClick={() => scroller.scrollTo("desc", {})} to={props.stack.path}>
-        <h3 className="stack__headline" >this stack</h3>
+      <Link className="stack__link" onClick={() => scroller.scrollTo("desc", {})} to={match.path}>
+        <h3 className="stack__headline" >stack</h3>
       </Link>
       {
         props.stack.content.map((c: Content, i: number): JSX.Element => {

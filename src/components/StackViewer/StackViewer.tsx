@@ -4,7 +4,7 @@ import { Desc, Stack } from '..'
 import './StackViewer.css'
 
 type StackViewerProps = {
-  stack: StackContent
+  stack: Project
 }
 
 const StackViewer = (props: StackViewerProps) => {
