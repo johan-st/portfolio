@@ -15,14 +15,14 @@ const content:ContentModel =
   about:
     {
       title: 'about',
-      path: '/',
+      path: '/about',
       short: "a summary of me and my abilities",
       thumb: placeholder_thumb,
       overview:
         {
           title: 'Johan Strand',
           markdown: me_md,
-          path:"/about"
+          path:"/overview"
         },
       content:[
       {
