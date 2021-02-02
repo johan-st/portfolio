@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <nav className="header__nav">
       <ul className="header__nav-list">
-        <li><Link className={loc[1] === "" ? active : inactive} to="/">me</Link></li>
+        <li><Link className={loc[1] === "about" ? active : inactive} to="/about">me</Link></li>
         <li><Link className={loc[1] === "projects" ? active : inactive} to="/projects">projects</Link></li>
         <li><Link className={loc[1] === "contact" ? active : inactive} to="/contact">contact</Link></li>
       </ul>
