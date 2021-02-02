@@ -10,6 +10,7 @@ import MD from "./MD/MD";
 import Nav from "./Nav/Nav";
 import Projects from "./Projects/Projects";
 import Project from "./Project/Project";
+import E404 from "./E404/E404";
 
 export 
   { Disk
@@ -24,4 +25,5 @@ export
   , Nav
   , Projects
   , Project
+  , E404
   }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { MD, Projects, StackViewer } from '..'
+import { MD, Projects, StackViewer, E404 } from '..'
 
 
 type ViewerProps = {
@@ -18,7 +18,7 @@ const Viewer = (props: ViewerProps) => (
       } />
 
       <Route path='/' render={
-        (rProps) => <StackViewer {...rProps} stack={props.content.about} />
+        (rProps) => <E404 />
       } />
     </Switch>
   </>
