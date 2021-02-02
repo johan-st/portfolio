@@ -1,11 +1,15 @@
-import * as me_md from './md/me/me.md'
-import * as content_md from './md/portfolio/content.md'
-import * as react_md from './md/portfolio/react.md'
-import * as node_md from './md/portfolio/node.md'
-import * as typescript_md from './md/portfolio/typescript.md'
-import * as docker_md from './md/portfolio/docker.md'
-import * as heroku_md from './md/portfolio/heroku.md'
-import * as overview_md from './md/portfolio/overview.md'
+import * as about_overview_md from './md/about/overview.md'
+import * as about_development_md from './md/about/development.md'
+import * as about_extras_md from './md/about/extras.md'
+import * as about_languages_md from './md/about/languages.md'
+import * as about_operations_md from './md/about/operations.md'
+import * as portfolio_content_md from './md/portfolio/content.md'
+import * as portfolio_react_md from './md/portfolio/react.md'
+import * as portfolio_node_md from './md/portfolio/node.md'
+import * as portfolio_typescript_md from './md/portfolio/typescript.md'
+import * as portfolio_docker_md from './md/portfolio/docker.md'
+import * as portfolio_heroku_md from './md/portfolio/heroku.md'
+import * as portfolio_overview_md from './md/portfolio/overview.md'
 import * as contact_md from './md/contact.md'
 import portfolio_thumb from './thumbs/portfolio.png'
 import placeholder_thumb from './thumbs/placeholder.png'
@@ -21,19 +25,29 @@ const content:ContentModel =
       overview:
         {
           title: 'Johan Strand',
-          markdown: me_md,
+          markdown: about_overview_md,
           path:"/overview"
         },
-      content:[
+      stack:[
       {
-        title: 'Content',
-        markdown: content_md,
-        path: '/content'
+        title: 'Languages',
+        markdown: about_languages_md,
+        path: '/languages'
       },
       {
-        title: 'Heroku',
-        markdown: heroku_md,
-        path: '/heroku'
+        title: 'development',
+        markdown: about_development_md,
+        path: '/development'
+      },
+      {
+        title: 'operations',
+        markdown: about_operations_md,
+        path: '/operations'
+      },
+      {
+        title: 'extras',
+        markdown: about_extras_md,
+        path: '/extras'
       }]
     },
   contact:{
@@ -50,38 +64,38 @@ const content:ContentModel =
         overview:
           {
             title: 'overview',
-            markdown: overview_md,
+            markdown: portfolio_overview_md,
             path: '/overview'
         },
-        content:[
+        stack:[
         {
           title: 'Content',
-          markdown: content_md,
+          markdown: portfolio_content_md,
           path: '/content'
         },
         {
           title: 'React',
-          markdown: react_md,
+          markdown: portfolio_react_md,
           path: '/react'
         },
         {
           title: 'node',
-          markdown: node_md,
+          markdown: portfolio_node_md,
           path: '/node'
         },
           {
           title: 'typescript',
-          markdown: typescript_md,
+          markdown: portfolio_typescript_md,
           path: '/typescript'
         },
         {
           title: 'docker',
-          markdown: docker_md,
+          markdown: portfolio_docker_md,
           path: '/docker'
         },
         {
           title: 'Heroku',
-          markdown: heroku_md,
+          markdown: portfolio_heroku_md,
           path: '/heroku'
         }]
       },  
@@ -93,18 +107,18 @@ const content:ContentModel =
         overview:
           {
             title: 'overview',
-            markdown: overview_md,
+            markdown: portfolio_overview_md,
             path: '/overview'
         },
-        content:[
+        stack:[
         {
           title: 'Content',
-          markdown: content_md,
+          markdown: portfolio_content_md,
           path: '/content'
         },
         {
           title: 'Heroku',
-          markdown: heroku_md,
+          markdown: portfolio_heroku_md,
           path: '/heroku'
         }]
       }]

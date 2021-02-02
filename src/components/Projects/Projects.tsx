@@ -14,15 +14,13 @@ const Projects = (props: ProjectsProps) => {
       <Switch>
         {props.projects.map(p => {
           return (< Route key={p.title + "_route"} path={match.path + p.path} render={
-            (rProps) => <StackViewer {...rProps} stack={p} />
+            (rProps) => <StackViewer {...rProps} project={p} />
           } />)
         })}
         < Route path={match.path} render={
           (rProps) =>
           (<div className="projects">
-
-            {props.projects.map(p => <Project key={p.title} project={p} />)}
-
+            {props.projects.map(p => <Project {...rProps} key={p.title} project={p} />)}
           </div>)} />
       </Switch>
     </>

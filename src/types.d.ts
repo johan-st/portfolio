@@ -9,7 +9,7 @@ type Project = {
   title: string
   short: string
   overview:Content
-  content:Content[]
+  stack:Content[]
   thumb: import("*.png") 
 }
 

@@ -9,7 +9,7 @@ I've found this to be a fast and simple way to manage content in smaller project
 ```ts
 type ContentModel = {
     projects: Project[]
-    about: Content
+    about: Project
     contact: Content
   }
 }
@@ -19,7 +19,7 @@ type Project = {
   title: string
   short: string
   overview:Content
-  content:Content[]
+  stack:Content[]
   thumb: import("*.png") 
 }
 

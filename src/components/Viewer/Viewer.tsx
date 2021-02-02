@@ -17,7 +17,7 @@ const Viewer = (props: ViewerProps) => (
         (rProps) => <MD {...rProps} content={props.content.contact} />
       } />
       <Route path='/about' render={
-        (rProps) => <StackViewer {...rProps} stack={props.content.about} />
+        (rProps) => <StackViewer {...rProps} project={props.content.about} />
       } />
       <Route exact path='/' render={
         (rProps) => <Redirect to="/about" />

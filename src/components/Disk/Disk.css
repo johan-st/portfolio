@@ -7,7 +7,7 @@
 }
 .stack__disk-svg{
   height:100px;
-  width:100px;
+  width:200px;
   animation-name: unstack;
   animation-duration: .5s;
   font-family: 'Courier New', Courier, monospace;
