@@ -1,4 +1,4 @@
-import * as me_md from './md/me.md'
+import * as me_md from './md/me/me.md'
 import * as content_md from './md/portfolio/content.md'
 import * as react_md from './md/portfolio/react.md'
 import * as node_md from './md/portfolio/node.md'
@@ -15,13 +15,31 @@ const content:ContentModel =
   about:
     {
       title: 'about',
-      markdown: me_md,
-      path: '/'
+      path: '/',
+      short: "a summary of me and my abilities",
+      thumb: placeholder_thumb,
+      overview:
+        {
+          title: 'Johan Strand',
+          markdown: me_md,
+          path:"/about"
+        },
+      content:[
+      {
+        title: 'Content',
+        markdown: content_md,
+        path: '/content'
+      },
+      {
+        title: 'Heroku',
+        markdown: heroku_md,
+        path: '/heroku'
+      }]
     },
   contact:{
       title: 'contact',
+      path: '/contact',
       markdown: contact_md,
-      path: '/contact'
     },
     projects:[
       {

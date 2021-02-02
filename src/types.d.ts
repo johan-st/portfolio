@@ -15,6 +15,6 @@ type Project = {
 
 type ContentModel = {
   projects: Project[]
-  about: Content
+  about: Project
   contact: Content
 }

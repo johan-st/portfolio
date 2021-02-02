@@ -12,10 +12,6 @@ const Stack = (props: StackProps) => {
   const numOfDisks = props.stack.content.length
   const path = useLocation().pathname.split("/").reverse()[0];
   const match = useRouteMatch();
-
-  console.log();
-
-
   return (
     <section className="stack" style={{
       height: numOfDisks * 75 + 80 + 'px'
