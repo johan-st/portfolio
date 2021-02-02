@@ -2,7 +2,7 @@ import React from 'react'
 import { Disk } from '..'
 import { useLocation, useRouteMatch } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import { scroller } from 'react-scroll'
+// import { scroller } from 'react-scroll'
 import './Stack.css'
 
 type StackProps = {
@@ -21,7 +21,8 @@ const Stack = (props: StackProps) => {
       height: numOfDisks * 75 + 80 + 'px'
     }}>
 
-      <Link className="stack__link" onClick={() => scroller.scrollTo("desc", {})} to={match.path}>
+      {/* <Link className="stack__link" onClick={() => scroller.scrollTo("desc", {})} to={match.path}> */}
+      <Link className="stack__link" to={match.path}>
         <h3 className="stack__headline" >stack</h3>
       </Link>
       {

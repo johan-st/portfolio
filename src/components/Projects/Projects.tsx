@@ -20,6 +20,7 @@ const Projects = (props: ProjectsProps) => {
         < Route path={match.path} render={
           (rProps) =>
           (<div className="projects">
+
             {props.projects.map(p => <Project key={p.title} project={p} />)}
 
           </div>)} />

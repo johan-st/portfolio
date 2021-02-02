@@ -10,13 +10,6 @@
   text-decoration: none;
   color: var(--clr-text);
 }
-.project__heading {
-  margin:1rem auto;
-  text-justify: center;
-}
-.project__short{
-  margin: 0 auto;
-}
 .project__card{
   transition: all 250ms ease;
   display: flex;
@@ -32,10 +25,18 @@
 .project__card:focus{
   background-color: transparent;
   color: transparent;
-
 }
 .project:hover,
 .project:focus{
-  border-color:  var(--clr-text);
+  border-color:  var(--clr-accent2);
 }
-
+.project__heading {
+  margin:1rem auto;
+  text-justify: center;
+}
+.project__short{
+  margin: 0 auto;
+}
+.project__info{
+  text-decoration: underline;
+}
