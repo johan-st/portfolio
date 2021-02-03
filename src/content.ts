@@ -1,8 +1,8 @@
 import * as about_overview_md from './md/about/overview.md'
-import * as about_development_md from './md/about/development.md'
+import * as about_frameworks_md from './md/about/frameworks.md'
 import * as about_extras_md from './md/about/extras.md'
 import * as about_languages_md from './md/about/languages.md'
-import * as about_operations_md from './md/about/operations.md'
+import * as about_tools_md from './md/about/tools.md'
 import * as portfolio_content_md from './md/portfolio/content.md'
 import * as portfolio_react_md from './md/portfolio/react.md'
 import * as portfolio_node_md from './md/portfolio/node.md'
@@ -29,20 +29,20 @@ const content:ContentModel =
           path:"/overview"
         },
       stack:[
+        {
+          title: 'frameworks',
+          markdown: about_frameworks_md,
+          path: '/frameworks'
+        },
       {
         title: 'Languages',
         markdown: about_languages_md,
         path: '/languages'
       },
       {
-        title: 'development',
-        markdown: about_development_md,
-        path: '/development'
-      },
-      {
-        title: 'operations',
-        markdown: about_operations_md,
-        path: '/operations'
+        title: 'tools',
+        markdown: about_tools_md,
+        path: '/tools'
       },
       {
         title: 'extras',

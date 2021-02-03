@@ -1,18 +1,23 @@
 # languages
-- **TypeScript**
-- **elm**
-- **html**
-- **css**
-- **JavaScript**
-## used but need refreshing 
-- **C#** (& .net)
-- **go**
-- **python**
-- **java**
-- **bash** shell script
-- **powershell**
+
+In my most recent projects I have almost exclusively used __typescript__ over __javascript__.
 
 
-If you have questions or are interested in hiring me, don't hesitate to ge in touch. 
+Ever since I learned **elm** ([link](https://elm-lang.org)) I have become used to _type-checking_ and the promise of _"no runtime exceptions"_. **typescript** does not make the same promises but it does provide exellent and flexible type-safety. 
 
-johan.strand@appliedtechnology.se
+
+  - TypeScript
+  - elm
+  - html
+  - css
+  - JavaScript
+ ______________
+ *some experience with...*
+  - C# (& .net)
+  - go
+  - python
+  - java
+  - php
+  - bash shell script
+  - powershell
+

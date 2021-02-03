@@ -1,7 +1,6 @@
 .stack {
   grid-area: stack;
   margin: 0 auto;
-  width:100%;
 }
 .stack__headline {
   font-family: 'Londrina Outline', cursive;

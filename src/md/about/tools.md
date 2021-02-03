@@ -1,6 +1,4 @@
-# development
-- **React** (& redux)
-- **elm-ui**
+# tools
 - **GraphQL**
 - **mongoDB**
 - **webpack**
