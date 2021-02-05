@@ -4,7 +4,7 @@
   gap: inherit;
   grid-template:
   "desc stack" auto
-  /auto auto;
+  /auto 200px;
 }
 @media (max-width:550px){
   .stackViewer{

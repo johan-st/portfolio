@@ -2,21 +2,21 @@
   grid-area: head;
   display: grid;
   grid-template: 
-  "imag null" 4vw
-  "imag card" 15vw
-  "imag navi" 6vw
+  "imag navi" auto 
+  "imag card" auto
   /25vw auto;
-  
 }
 .header__card {
   grid-area: card;
   z-index: 1;
-  padding: 0 1vw;
+  padding: 0 1vw 2vw 1vw ;
   background-color: var(--clr-bg);
   color: var(--clr-text);
   border:solid 2px var(--clr-text);
   width: max-content;
   height: max-content;
+  /* width: 100%;
+  height: 100%; */
   text-decoration: none;
   margin: 0 auto;
 }
@@ -36,17 +36,29 @@
 }
 
 .header__title {
-  font-size: calc(6.6vmin);
+  font-size: 9vw;
   line-break: strict;
   line-height: 0;
 }
 
+
 .header__subtitle {
   line-height: 0;
   line-break: strict;
-  font-size: calc(4vmin);
+  font-size:5.4vw;
+  font-weight: 400;
+  display: inline;
 }
 .header__card:focus,
 .header__card:hover{
   color: var(--clr-text);
+}
+
+@media(min-width:980px){
+  .header__title{
+    font-size: 88px;
+  }
+  .header__subtitle{
+    font-size: 53px;
+  }
 }

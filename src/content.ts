@@ -6,7 +6,6 @@ import * as about_tools_md from './md/about/tools.md'
 import * as portfolio_content_md from './md/portfolio/content.md'
 import * as portfolio_react_md from './md/portfolio/react.md'
 import * as portfolio_node_md from './md/portfolio/node.md'
-import * as portfolio_typescript_md from './md/portfolio/typescript.md'
 import * as portfolio_docker_md from './md/portfolio/docker.md'
 import * as portfolio_heroku_md from './md/portfolio/heroku.md'
 import * as portfolio_overview_md from './md/portfolio/overview.md'
@@ -82,11 +81,6 @@ const content:ContentModel =
           title: 'node',
           markdown: portfolio_node_md,
           path: '/node'
-        },
-          {
-          title: 'typescript',
-          markdown: portfolio_typescript_md,
-          path: '/typescript'
         },
         {
           title: 'docker',
