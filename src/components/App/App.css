@@ -1,7 +1,6 @@
 .App {
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
   background-color: var(--clr-bg);
   color: var(--clr-text);
   margin: 2vw auto;
@@ -9,6 +8,7 @@
   max-width: 960px;
   display: grid;
   gap: 2rem;
+  overflow: hidden;
   grid-template: 
   "head" auto
   "view" auto

@@ -13,13 +13,14 @@
 
 * {box-sizing: border-box};
 #root{
-  margin: 15px;
+  margin: 12pt;
 }
 
 a {
   color:var(--clr-muted);
 }
-a:hover,
+
+a:hover, 
 a:focus {
-  color:var(--clr-text);
+        color: var(--clr-accent2);
 }

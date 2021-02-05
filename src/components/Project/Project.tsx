@@ -12,7 +12,7 @@ const Project = (props: ProjectProps) => {
       <div className="project__card">
         <h2 className="project__heading">{props.project.title}</h2>
         <p className="project__short">{props.project.short}</p>
-        <p className="project__info">click to explore</p>
+        <p className="project__info">click for more..</p>
       </div>
     </Link>)
 }

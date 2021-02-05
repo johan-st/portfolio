@@ -19,7 +19,7 @@ const Stack = (props: StackProps) => {
 
       {/* <Link className="stack__link" onClick={() => scroller.scrollTo("desc", {})} to={match.path}> */}
       <Link className="stack__link" to={match.path}>
-        <h3 className="stack__headline" >stack</h3>
+        <h3 className="stack__headline" >{props.project.title}</h3>
       </Link>
       {
         props.project.stack.map((c: Content, i: number): JSX.Element => {

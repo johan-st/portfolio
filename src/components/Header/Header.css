@@ -2,37 +2,34 @@
   grid-area: head;
   display: grid;
   grid-template: 
-  "imag navi" auto 
   "imag card" auto
-  /25vw auto;
+  "imag navi" auto 
+  /1fr 4fr;
 }
 .header__card {
+  /* border-bottom:dotted 1rem var(--clr-border); */
+  /* border-top:dotted 1rem var(--clr-border); */
   grid-area: card;
   z-index: 1;
   padding: 0 1vw 2vw 1vw ;
   background-color: var(--clr-bg);
   color: var(--clr-text);
-  border:solid 2px var(--clr-text);
   width: max-content;
   height: max-content;
-  /* width: 100%;
-  height: 100%; */
   text-decoration: none;
-  margin: 0 auto;
+  margin: 0 0 0 auto;
 }
 
 .header__img {
   border-radius:50%;
-  border: solid 2px var(--clr-border);
-  width:35vw;
-  position: absolute;
-  top: -5vw;
-  left:-5vw;
+  width:125%;
+  transform: translate(-15%, -7.5%);
+
 }
 
 .header__img-link {
+  height: min-content;
   grid-area: imag;
-  width:100%;
 }
 
 .header__title {
@@ -43,6 +40,7 @@
 
 
 .header__subtitle {
+  color: var(--clr-border);
   line-height: 0;
   line-break: strict;
   font-size:5.4vw;

@@ -29,7 +29,7 @@ const content:ContentModel =
         },
       stack:[
         {
-          title: 'frameworks',
+          title: 'Frameworks',
           markdown: about_frameworks_md,
           path: '/frameworks'
         },
@@ -39,12 +39,12 @@ const content:ContentModel =
         path: '/languages'
       },
       {
-        title: 'tools',
+        title: 'Tools',
         markdown: about_tools_md,
         path: '/tools'
       },
       {
-        title: 'extras',
+        title: 'Extras',
         markdown: about_extras_md,
         path: '/extras'
       }]
@@ -62,7 +62,7 @@ const content:ContentModel =
         thumb: portfolio_thumb,
         overview:
           {
-            title: 'overview',
+            title: 'Overview',
             markdown: portfolio_overview_md,
             path: '/overview'
         },

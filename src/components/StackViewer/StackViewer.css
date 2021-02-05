@@ -9,8 +9,8 @@
 @media (max-width:550px){
   .stackViewer{
   grid-template:
-  "stack" auto
   "desc" auto
+  "stack" auto
   / auto;
   }
 }

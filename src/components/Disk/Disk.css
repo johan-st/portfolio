@@ -5,6 +5,8 @@
   height:auto;
   transition: all 300ms ease;
 }
+
+
 .stack__disk-svg{
   height:100px;
   width:200px;
@@ -15,10 +17,13 @@
   font-size:2rem;
   overflow: visible;
 }
-.stack__disk:hover, 
-.stack__disk:focus {
+.stack a:hover, 
+.stack a:focus {
   stroke: var(--clr-accent);
   transform: translate(-4px, 2px);
+  --clr-disk:var(--clr-accent);
+  outline: none;
+  color: var(--clr-accent2);
 }
 .stack__disk-textpath
 {
@@ -29,8 +34,12 @@
 .stack__disk--active:hover,
 .stack__disk--active:focus{
   transform: translate(-20px, 10px);
-  /* --clr-disk:var(--clr-accent); */
+  outline: hidden;
   stroke:var(--clr-accent);
+}
+.stack__disk--active:active, 
+.stack__disk:active {
+  outline: hidden;
 }
 @keyframes unstack { 
   0% {height:75px;}
