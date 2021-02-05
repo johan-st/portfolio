@@ -18,11 +18,12 @@
 }
 .stack a:hover, 
 .stack a:focus {
-  stroke: var(--clr-accent);
-  transform: translate(-4px, 2px);
   --clr-disk:var(--clr-accent);
-  outline: none;
-  color: var(--clr-accent2);
+}
+
+.stack__disk:hover, 
+.stack__disk:focus {
+  transform: translate(-8px, 4px);
 }
 .stack__disk-textpath
 {
