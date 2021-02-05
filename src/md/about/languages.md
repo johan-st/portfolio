@@ -2,22 +2,19 @@
 
 In my most recent projects I have almost exclusively used __typescript__ over __javascript__.
 
+Ever since I learned [elm](https://elm-lang.org) I have become fond of _type-checking_ and **Typescript** does provide exellent and flexible type-safety. 
 
-Ever since I learned **elm** ([link](https://elm-lang.org)) I have become used to _type-checking_ and the promise of _"no runtime exceptions"_. **typescript** does not make the same promises but it does provide exellent and flexible type-safety. 
-
-
+### I am confident with..
   - TypeScript
-  - elm
-  - html
-  - css
   - JavaScript
- ______________
- *some experience with...*
+  - css
+  - html
+  - elm
+### I have some experience with...
   - C# (& .net)
   - go
-  - python
   - java
+  - python
   - php
   - bash shell script
   - powershell
-
