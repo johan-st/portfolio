@@ -8,6 +8,6 @@
   resize: horizontal;
   margin: 0 0 0 auto;
   line-break: loose;
-  word-wrap: break-word;
+  line-height: 1.25;
   width:100%;
 }

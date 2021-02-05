@@ -8,19 +8,8 @@
  --clr-text: #ffffff;
  --clr-accent: #ff8800;
  --clr-accent2: #ffee00;
+ --font-text: 'Source Code Pro', monospace;;
+ --font-head: 'Syne Mono', monospace;
  background-color: var(--clr-bg);
 }
 
-* {box-sizing: border-box};
-#root{
-  margin: 12pt;
-}
-
-a {
-  color:var(--clr-muted);
-}
-
-a:hover, 
-a:focus {
-        color: var(--clr-accent2);
-}

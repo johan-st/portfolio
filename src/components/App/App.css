@@ -1,7 +1,6 @@
 .App {
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
-  background-color: var(--clr-bg);
+  font-family: var(--font-text);
   color: var(--clr-text);
   margin: 2vw auto;
   width: 96vw;
@@ -15,6 +14,21 @@
   "foot" auto 
   /auto;
 }
+* {
+  box-sizing: border-box;
+};
 
+#root{
+  margin: 12pt;
+}
+
+a {
+  color:var(--clr-muted);
+}
+
+a:hover, 
+a:focus {
+        color: var(--clr-accent2);
+}
 
 

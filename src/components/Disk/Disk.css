@@ -12,9 +12,9 @@
   width:200px;
   animation-name: unstack;
   animation-duration: .5s;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: var(--font-head); */
   text-align: center;
-  font-size:2rem;
+  font-size:1.5rem;
   overflow: visible;
 }
 .stack a:hover, 

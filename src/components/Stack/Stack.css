@@ -3,9 +3,8 @@
   margin: 0 auto;
 }
 .stack__headline {
-  font-family: 'Londrina Outline', cursive;
-  font-size: 3rem;
-  font-weight: 100;
+  font-family: var(--font-head);
+  font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
   line-height: 2rem;

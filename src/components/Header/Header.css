@@ -7,24 +7,21 @@
   /1fr 4fr;
 }
 .header__card {
-  /* border-bottom:dotted 1rem var(--clr-border); */
-  /* border-top:dotted 1rem var(--clr-border); */
   grid-area: card;
   z-index: 1;
-  padding: 0 1vw 2vw 1vw ;
   background-color: var(--clr-bg);
   color: var(--clr-text);
   width: max-content;
   height: max-content;
   text-decoration: none;
   margin: 0 0 0 auto;
+  overflow: visible;
 }
 
 .header__img {
   border-radius:50%;
-  width:125%;
+  width:100%;
   transform: translate(-15%, -7.5%);
-
 }
 
 .header__img-link {
@@ -33,19 +30,21 @@
 }
 
 .header__title {
-  font-size: 9vw;
+  font-size: 10vw;
+  font-weight: 200;
   line-break: strict;
-  line-height: 0;
+  margin:0;
+  line-height: 0.7;
 }
 
 
 .header__subtitle {
   color: var(--clr-border);
-  line-height: 0;
   line-break: strict;
-  font-size:5.4vw;
-  font-weight: 400;
+  font-size:6vw;
+  font-weight: 100;
   display: inline;
+  margin: 0;
 }
 .header__card:focus,
 .header__card:hover{
@@ -54,9 +53,9 @@
 
 @media(min-width:980px){
   .header__title{
-    font-size: 88px;
+    font-size: 98px;
   }
   .header__subtitle{
-    font-size: 53px;
+    font-size: 58px;
   }
 }
