@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .stack__headline {
-  font-family: var(--font-head);
+  font-weight: 200;
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;

@@ -1,6 +1,6 @@
 .App {
   box-sizing: border-box;
-  font-family: var(--font-text);
+  font-family: var(--font-main);
   color: var(--clr-text);
   margin: 2vw auto;
   width: 96vw;
