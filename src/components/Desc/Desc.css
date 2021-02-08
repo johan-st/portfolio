@@ -11,3 +11,6 @@
   line-height: 1.25;
   width:100%;
 }
+.description  li{
+  list-style-type: inherit;
+}
