@@ -81,7 +81,7 @@
     "test": "node scripts/test.js",
     "tsc": "tsc -w",
     "prod": "node ./server.js",
-    "deploy": "npm run build && heroku container:push web -a johan-st && heroku container:release web -a johan-st"
+    "heroku": "npm run build && heroku container:push web -a johan-st && heroku container:release web -a johan-st"
   },
   "eslintConfig": {
     "extends": [
