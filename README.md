@@ -12,5 +12,6 @@ First off I have focused on pressenting the tech-stack this portfolio is build o
 I will pressent more of my projects.
 
 ### todo
+- list css add bullets to md
 - timeline
 - bring up live versions of prev projects

@@ -16,11 +16,11 @@ const Viewer = (props: ViewerProps) => (
       < Route path={props.content.contact.path} render={
         (rProps) => <MD {...rProps} content={props.content.contact} />
       } />
-      <Route path='/about' render={
+      <Route path='/stack' render={
         (rProps) => <StackViewer {...rProps} project={props.content.about} />
       } />
       <Route exact path='/' render={
-        (rProps) => <Redirect to="/about" />
+        (rProps) => <Redirect to="/stack" />
       } />
       <Route path='/' render={
         (rProps) => <E404 />

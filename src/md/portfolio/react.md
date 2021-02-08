@@ -1,4 +1,3 @@
 # React
-As one of the frameworks I am most familiar with, **react** was an easy choice for this project.
 
-
+As the main frameworks used in my training at </salt> I felt __react__ was an appropriate choice for this portfolio.

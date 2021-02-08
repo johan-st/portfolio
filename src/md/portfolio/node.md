@@ -1,7 +1,7 @@
 # node & express
 This page is served by a very simplistic server. 
 
-I am handling static content with the built-in `express.static()`. All other GET-requests return the html for the **S**ingle **P**age **A**pplication.
+I am handling static content with the built-in `express.static()`. All other GET-requests return the html this SPA.
 
 ## Server.js
 (yep, this is all there is)

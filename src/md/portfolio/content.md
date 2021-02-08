@@ -1,19 +1,17 @@
 # Content Management 
-This page does not need advanced content management. Here I store these descriptions as markdown in separate _*.md_-files. I import the markdown-files into an object I call _content_ _(see example below)_. 
+This page does not need advanced content management. Here I store whatever I want to show in this box as markdown in separate _*.md_-files.
 
-The _content_ object is the source for generating the majority of this page including the stack and these descriptions. 
+The __Content Model__ is the source for generating the majority of this page including the __stack__, __routing__ and these __descriptions__. 
 
-I've found this to be a fast and simple way to manage content in smaller projects. The content object could easily be fetched via an API or similar in the future.
+I've found this to be a fast and simple way to manage content in smaller projects. The __Content Model__ could easily be fetched via an API or similar in the future.
 
 ### Content Model
 ```ts
-type ContentModel = {
-    projects: Project[]
-    about: Project
-    contact: Content
-  }
+type Content = { 
+    title: string, 
+    markdown: import("*.md"), 
+    path: string 
 }
-
 type Project = { 
   path: string
   title: string
@@ -22,10 +20,10 @@ type Project = {
   stack:Content[]
   thumb: import("*.png") 
 }
-
-type Content = { 
-    title: string, 
-    markdown: import("*.md"), 
-    path: string 
+type ContentModel = {
+  projects: Project[]
+  about: Project
+  contact: Content
 }
+
 ```

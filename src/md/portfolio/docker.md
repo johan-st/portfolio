@@ -1,8 +1,9 @@
 # docker
 
-This project is easily distributed as a single container built from a simple _Dockerfile_ in the git repository. That helps ensure consistent behaviour regardless of where it is deployed. 
+This project is easily distributed as a single container built according to the __Dockerfile__ in the git repository. This helps ensure consistent behaviour regardless of where it is deployed. 
 
-In no small part because of the plethora of service providers and other deployment options I find that containers significantly simplifies operations and helps prevent _"lock-in"_. 
+In no small part because of the plethora of service providers and other deployment options I find that containers significantly simplifies the handling of deployment and helps prevent _"lock-in"_. 
+
 ## Dockerfile
 ```docker
 FROM node:15.7.0-alpine3.10
