@@ -23,7 +23,7 @@
 }
 
 a {
-  color:var(--clr-muted);
+  color:var(--clr-accent);
 }
 
 a:hover, 
