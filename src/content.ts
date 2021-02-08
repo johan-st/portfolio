@@ -12,6 +12,10 @@ import * as portfolio_node_md from './md/portfolio/node.md'
 import * as portfolio_docker_md from './md/portfolio/docker.md'
 import * as portfolio_heroku_md from './md/portfolio/heroku.md'
 import * as portfolio_overview_md from './md/portfolio/overview.md'
+import * as soon_overview_md from './md/soon/overview.md'
+import * as soon_noodles_md from './md/soon/noodles.md'
+import * as soon_unsplash_md from './md/soon/unsplash.md'
+import * as soon_hackday_md from './md/soon/hackday.md'
 import * as contact_md from './md/contact.md'
 import portfolio_thumb from './thumbs/portfolio.png'
 import placeholder_thumb from './thumbs/placeholder.png'
@@ -113,27 +117,29 @@ const content:ContentModel =
         }]
       },  
       {
-        title:"placeholder project",
-        path: '/notolio',
-        short:"NOT the personal portfolio of Johan Strand",
+        title:"coming soon..",
+        path: '/soon',
+        short:"Future project and project not yet showcased",
         thumb: placeholder_thumb,
         overview:
           {
             title: 'overview',
-            markdown: portfolio_overview_md,
+            markdown: soon_overview_md,
             path: '/overview'
         },
-        stack:[
-        {
-          title: 'Content',
-          markdown: portfolio_content_md,
-          path: '/content'
-        },
-        {
-          title: 'Heroku',
-          markdown: portfolio_heroku_md,
-          path: '/heroku'
-        }]
+        stack:[{
+            title: 'salty noodles',
+            markdown: soon_noodles_md,
+            path: '/noodle'
+        },{
+            title: 'unsplash',
+            markdown: soon_unsplash_md,
+            path: '/unsplash'
+        },{
+            title: 'hackday',
+            markdown: soon_hackday_md,
+            path: '/hackday'
+        },]
       }]
 }
 export { content }
