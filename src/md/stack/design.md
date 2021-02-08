@@ -5,4 +5,4 @@
 - adobe **photoshop**
 - adobe **illustrator**
 - __UI__ / __UX__ design
-- **figma**
+- [**figma**](https://www.figma.com/)

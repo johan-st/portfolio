@@ -13,11 +13,18 @@ import * as portfolio_docker_md from './md/portfolio/docker.md'
 import * as portfolio_heroku_md from './md/portfolio/heroku.md'
 import * as portfolio_overview_md from './md/portfolio/overview.md'
 import * as soon_overview_md from './md/soon/overview.md'
-import * as soon_noodles_md from './md/soon/noodles.md'
 import * as soon_unsplash_md from './md/soon/unsplash.md'
 import * as soon_hackday_md from './md/soon/hackday.md'
+import * as noodle_api_md from './md/noodle/api.md'
+import * as noodle_css_md from './md/noodle/css.md'
+import * as noodle_docker_md from './md/noodle/docker.md'
+import * as noodle_elm_md from './md/noodle/elm.md'
+import * as noodle_heroku_md from './md/noodle/heroku.md'
+import * as noodle_node_md from './md/noodle/node.md'
+import * as noodle_overview_md from './md/noodle/overview.md'
 import * as contact_md from './md/contact.md'
 import portfolio_thumb from './thumbs/portfolio.png'
+import noodle_thumb from './thumbs/noodle.png'
 import placeholder_thumb from './thumbs/placeholder.png'
 
 const content:ContentModel =
@@ -115,7 +122,43 @@ const content:ContentModel =
           markdown: portfolio_heroku_md,
           path: '/heroku'
         }]
-      },  
+      },   {
+        title:"salty noodles",
+        path: '/noodle',
+        short:"a side-project from my training at </salt>",
+        thumb: noodle_thumb,
+        overview:
+          {
+            title: 'overview',
+            markdown: noodle_overview_md,
+            path: '/overview'
+        },
+        stack:[{
+            title: 'elm',
+            markdown: noodle_elm_md,
+            path: '/elm'
+          },{
+            title: 'css',
+            markdown: noodle_css_md,
+            path: '/css'
+          },{
+            title: 'unsplash',
+            markdown: noodle_api_md,
+            path: '/api'
+          },{
+            title: 'node',
+            markdown: noodle_node_md,
+            path: '/node'
+          },{
+            title: 'docker',
+            markdown: noodle_docker_md,
+            path: '/docker'
+          },{
+            title: 'heroku',
+            markdown: noodle_heroku_md,
+            path: '/heroku'
+        }
+      ]},
       {
         title:"coming soon..",
         path: '/soon',
@@ -128,10 +171,6 @@ const content:ContentModel =
             path: '/overview'
         },
         stack:[{
-            title: 'salty noodles',
-            markdown: soon_noodles_md,
-            path: '/noodle'
-        },{
             title: 'unsplash',
             markdown: soon_unsplash_md,
             path: '/unsplash'
