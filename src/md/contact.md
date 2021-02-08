@@ -1,4 +1,4 @@
-# I am currently availible. 
+# I am currently available. 
 
 If you have questions or are interested in hiring me, don't hesitate to ge in touch. 
 

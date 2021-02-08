@@ -1,8 +1,6 @@
 # Testing-tools
 
-IMHO, **Test Drive Development** is not necessarily always wrinting test before writing the code but more about writing **testable code**. TDD helps me think before I code.
-
-- __TDD__
+- __TDD__ 
 - __Jest__
 - __Mocha__
 - __EsLint__

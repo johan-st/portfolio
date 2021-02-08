@@ -17,7 +17,7 @@
   - Kubernetes
   - Docker Swarm
 
-- __Linx__ (bash)
+- __Linux__ (bash)
 
 - __Windows Server__ (2016)
 
