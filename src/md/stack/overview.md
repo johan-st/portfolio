@@ -1,6 +1,6 @@
 # Who Am I?
 
-In December I graduated from School of applied technology [<​/salt>](https://salt.dev/) with 30 fellow students. We were selected among 1500 candidates for a three months accelerated career program to become a **Full-Stack JavaScript developer**.
+In December I graduated from School of applied technology [</salt>](https://salt.dev/) with 30 fellow students. We were selected among 1500 candidates for a three months accelerated career program to become a **Full-Stack JavaScript developer**.
 
 My maxim is _"strive for continious and sustainable improvement"_. I am a **problem solver** by nature and work hard to find pragmatic solutions within the given constraints.
 

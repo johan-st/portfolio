@@ -2,7 +2,8 @@ import React from 'react'
 import { Disk } from '..'
 import { useLocation, useRouteMatch } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import { animateScroll as scroll } from 'react-scroll'
+// import { animateScroll as scroll } from 'react-scroll'
+import { scroller } from 'react-scroll'
 import './Stack.css'
 
 type StackProps = {
@@ -17,7 +18,15 @@ const Stack = (props: StackProps) => {
       height: numOfDisks * 75 + 80 + 'px'
     }}>
 
-      <Link className="stack__link" onClick={() => scroll.scrollToTop()} to={match.path}>
+      {/* <Link className="stack__link" onClick={() => scroll.scrollToTop()} to={match.path}> */}
+      <Link
+        className="stack__link"
+        onClick={() => scroller.scrollTo("desc", {
+          duration: 333,
+          delay: 0,
+          smooth: 'easeOutQuart'
+        })}
+        to={match.path}>
         <h3 className="stack__headline" >{props.project.title}</h3>
       </Link>
       {
