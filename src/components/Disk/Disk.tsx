@@ -18,13 +18,12 @@ function Disk(props: DiskProps): JSX.Element {
   let linkClass = props.active ? "stack__disk-link stack__disk-link--active" : "stack__disk-link"
   return (
 
-    <li onClick={() => scroller.scrollTo("desc", {
+    <li onClick={() => scroller.scrollTo("stackViewer", {
       duration: 333,
       delay: 0,
       smooth: 'easeOutQuart'
     })}
       className={diskClass}
-      // <li className={diskClass}
       style={{
         bottom: props.index * 30,
         zIndex: 100 - props.index

@@ -30,7 +30,7 @@
 .stack__disk-textpath--active,
 .stack__disk-textpath--active:hover,
 .stack__disk-textpath--active:focus{
-  fill:var(--clr-accent2);
+  fill:var(--clr-accent);
 }
 .stack__disk--active,
 .stack__disk--active:hover,

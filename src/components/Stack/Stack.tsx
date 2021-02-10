@@ -21,7 +21,7 @@ const Stack = (props: StackProps) => {
       {/* <Link className="stack__link" onClick={() => scroll.scrollToTop()} to={match.path}> */}
       <Link
         className="stack__link"
-        onClick={() => scroller.scrollTo("desc", {
+        onClick={() => scroller.scrollTo("stackViewer", {
           duration: 333,
           delay: 0,
           smooth: 'easeOutQuart'
