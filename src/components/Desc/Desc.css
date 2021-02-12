@@ -14,3 +14,7 @@
 .description  li{
   list-style-type: inherit;
 }
+
+.description img {
+  width: 100%;
+}

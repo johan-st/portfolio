@@ -18,7 +18,6 @@ const Stack = (props: StackProps) => {
       height: numOfDisks * 75 + 80 + 'px'
     }}>
 
-      {/* <Link className="stack__link" onClick={() => scroll.scrollToTop()} to={match.path}> */}
       <Link
         className="stack__link"
         onClick={() => scroller.scrollTo("stackViewer", {
