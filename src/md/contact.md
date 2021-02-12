@@ -1,6 +1,7 @@
-# I am currently available. 
+# I am on assignment
 
-If you have questions or are interested in hiring me, don't hesitate to ge in touch. 
+I am currently on assignmeent and not available.
+I do however have several talented colleagues so if you are looking for a developer make sure to shoot an email to Simon or Sara.
 
 - me [email](johan.strand@appliedtechnology.se)
 - me phone: [+46 73-6 23 28 47](tel:+46736232847)

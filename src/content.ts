@@ -15,6 +15,7 @@ import * as portfolio_overview_md from './md/portfolio/overview.md'
 import * as soon_overview_md from './md/soon/overview.md'
 import * as soon_unsplash_md from './md/soon/unsplash.md'
 import * as soon_hackday_md from './md/soon/hackday.md'
+import * as soon_amity_md from './md/soon/amity.md'
 import * as noodle_api_md from './md/noodle/api.md'
 import * as noodle_css_md from './md/noodle/css.md'
 import * as noodle_docker_md from './md/noodle/docker.md'
@@ -171,6 +172,10 @@ const content:ContentModel =
             path: '/overview'
         },
         stack:[{
+            title: 'amity',
+            markdown: soon_amity_md,
+            path: '/amity'
+        },{
             title: 'unsplash',
             markdown: soon_unsplash_md,
             path: '/unsplash'
