@@ -1,0 +1,12 @@
+name: portfolio
+region: ams
+static_sites:
+  - build_command: npm run build
+    environment_slug: node-js
+    github:
+      branch: digitalOcean
+      deploy_on_push: true
+      repo: johan-st/portfolio
+    name: portfolio-2
+    routes:
+      - path: /
