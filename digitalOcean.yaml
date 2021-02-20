@@ -10,3 +10,4 @@ static_sites:
     name: portfolio-2
     routes:
       - path: /
+      - path: /stack
