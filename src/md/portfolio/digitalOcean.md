@@ -1,0 +1,2 @@
+# Hosted by Digital Ocean
+I started out hosting this page on Heroku in a docker container. I have now moved to _digital ocean_ and their _app platsform_. I have chosen to take dvantage of their cdn _([Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network))_ to speed up initial load of the page. 
