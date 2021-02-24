@@ -1,3 +1,2 @@
 # React
-
-As the main frameworks used in my training at </salt> I felt __react__ was an appropriate choice for this portfolio.
+I was early on inspired by (among others) [this talk](https://www.youtube.com/watch?v=rtcn9I9sB5M&list=PLdmOoVKQQ3tEtIOS4PRC4na2h47mj0aQg) by _Lee Byron_ on Immutable User Interfaces. Working with __react__ and using functional components now feels natural to me.

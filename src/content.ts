@@ -8,10 +8,8 @@ import * as stack_overview_md from './md/stack/overview.md'
 import * as stack_testing_md from './md/stack/testing.md'
 import * as portfolio_content_md from './md/portfolio/content.md'
 import * as portfolio_react_md from './md/portfolio/react.md'
-import * as portfolio_node_md from './md/portfolio/node.md'
-import * as portfolio_docker_md from './md/portfolio/docker.md'
-import * as portfolio_heroku_md from './md/portfolio/heroku.md'
 import * as portfolio_overview_md from './md/portfolio/overview.md'
+import * as portfolio_digitalOcean_md from './md/portfolio/digitalOcean.md'
 import * as soon_overview_md from './md/soon/overview.md'
 import * as soon_unsplash_md from './md/soon/unsplash.md'
 import * as soon_hackday_md from './md/soon/hackday.md'
@@ -98,31 +96,23 @@ const content:ContentModel =
             path: '/overview'
         },
         stack:[
+          {
+            title: 'React',
+            markdown: portfolio_react_md,
+            path: '/react'
+          },
         {
           title: 'Content',
           markdown: portfolio_content_md,
           path: '/content'
         },
         {
-          title: 'React',
-          markdown: portfolio_react_md,
-          path: '/react'
-        },
-        {
-          title: 'node',
-          markdown: portfolio_node_md,
-          path: '/node'
-        },
-        {
-          title: 'docker',
-          markdown: portfolio_docker_md,
-          path: '/docker'
-        },
-        {
-          title: 'Heroku',
-          markdown: portfolio_heroku_md,
-          path: '/heroku'
-        }]
+          title: 'Digital Ocean',
+          markdown: portfolio_digitalOcean_md,
+          path: '/digitalOcean'
+        }
+        
+        ]
       },   {
         title:"salty noodles",
         path: '/noodle',
