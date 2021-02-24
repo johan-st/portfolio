@@ -1,0 +1,17 @@
+domains:
+  - domain: johan.styldesign.se
+    type: PRIMARY
+name: portfolio
+region: ams
+static_sites:
+  - build_command: npm run build
+    environment_slug: node-js
+    error_document: index.html
+    github:
+      branch: digitalOcean
+      deploy_on_push: true
+      repo: johan-st/portfolio
+    name: portfolio
+    output_dir: build
+    routes:
+      - path: /

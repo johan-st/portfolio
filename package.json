@@ -76,10 +76,12 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "watch": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "tsc": "tsc -w",
+    "start": "node ./server.js",
+    "prod": "node ./server.js",
     "heroku": "npm run build && heroku container:push web -a johan-st && heroku container:release web -a johan-st"
   },
   "eslintConfig": {
