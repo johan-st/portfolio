@@ -41,6 +41,7 @@
     "jest-circus": "26.6.0",
     "jest-resolve": "26.6.0",
     "jest-watch-typeahead": "0.6.1",
+    "joi": "^17.4.0",
     "mini-css-extract-plugin": "0.11.3",
     "optimize-css-assets-webpack-plugin": "5.0.4",
     "pnp-webpack-plugin": "1.6.4",
@@ -76,13 +77,11 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "scripts": {
-    "watch": "node scripts/start.js",
+    "watch": "nodemon scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "tsc": "tsc -w",
-    "start": "node ./server.js",
-    "prod": "node ./server.js",
-    "heroku": "npm run build && heroku container:push web -a johan-st && heroku container:release web -a johan-st"
+    "prod": "node ./server.js"
   },
   "eslintConfig": {
     "extends": [
