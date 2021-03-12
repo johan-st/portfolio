@@ -77,7 +77,7 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "scripts": {
-    "watch": "nodemon scripts/start.js",
+    "start": "nodemon -r dotenv/config ./server.js " ,
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "tsc": "tsc -w",
@@ -106,6 +106,7 @@
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.7",
     "@types/react-syntax-highlighter": "^13.5.0",
+    "nodemon": "^2.0.7",
     "raw-loader": "^4.0.2",
     "webpack-cli": "^4.4.0"
   },
