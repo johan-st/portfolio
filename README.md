@@ -1,4 +1,4 @@
-link: [live app](https://johan-st.herokuapp.com/)
+link: [live app](https://johan.styldesign.se/)
 
 # Portfolio
 
