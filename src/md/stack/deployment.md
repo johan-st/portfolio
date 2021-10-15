@@ -1,27 +1,29 @@
 # Deployment
 
-- __AWS__
+- **AWS**
+
   - ec2/VMs
   - lambda
   - vpc
   - s3
 
-- __Digital Ocean__ (Droplets/VMs)
+- **Digital Ocean**
 
-- __Google Cloud__ (VMs)
+- **Google Cloud**
 
-- __Azure__ (VMs)
+- **Azure** (VMs)
 
-- __Containers__
+- **Containers**
+
   - Docker
   - Kubernetes
   - Docker Swarm
 
-- __Linux__ (bash)
+- **Linux** (bash)
 
-- __Windows Server__ (2016)
+- **Windows Server** (2016)
 
-- __NGINX__:
+- **NGINX**:
   - load balancing
   - HTTP/HTTPS
   - php-fpm
