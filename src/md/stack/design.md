@@ -4,5 +4,5 @@
 - adobe **inDesign**
 - adobe **photoshop**
 - adobe **illustrator**
-- **UI** / **UX** design
+  github- **UI** / **UX** design
 - [**figma**](https://www.figma.com/)
