@@ -2,7 +2,7 @@
 
 Here are a few ways to get in touch.
 
-- [jst@jst.dev](email:jst@jst.dev)
+- [jst@jst.dev](mailto:jst@jst.dev)
 - [+46 73-6 23 28 47](tel:+46736232847)
 
 And here are a few places I can be found
