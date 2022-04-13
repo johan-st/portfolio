@@ -22,25 +22,28 @@ import * as noodle_heroku_md from './md/noodle/heroku.md'
 import * as noodle_node_md from './md/noodle/node.md'
 import * as noodle_overview_md from './md/noodle/overview.md'
 import * as contact_md from './md/contact.md'
+import * as misc_overview_md from './md/misc/overview.md'
+import * as misc_warmer_md from './md/misc/warmer.md'
+import * as misc_HitomezashiStiches_md from './md/misc/HitomezashiStiches.md'
 import portfolio_thumb from './thumbs/portfolio.png'
 import noodle_thumb from './thumbs/noodle.png'
 import placeholder_thumb from './thumbs/placeholder.png'
 
-const content:ContentModel =
-  {
+const content: ContentModel =
+{
   about:
+  {
+    title: 'tech-stack',
+    path: '/stack',
+    short: "a summary of me and my abilities",
+    thumb: placeholder_thumb,
+    overview:
     {
-      title: 'tech-stack',
-      path: '/stack',
-      short: "a summary of me and my abilities",
-      thumb: placeholder_thumb,
-      overview:
-      {
-        title: 'overview',
-        markdown: stack_overview_md,
-        path:"/overview"
-      },
-      stack:[
+      title: 'overview',
+      markdown: stack_overview_md,
+      path: "/overview"
+    },
+    stack: [
       {
         title: 'Languages',
         markdown: stack_languages_md,
@@ -48,8 +51,8 @@ const content:ContentModel =
       },
       {
         title: 'Front-End',
-        markdown:stack_frontend_md,
-        path:'/frontend'
+        markdown: stack_frontend_md,
+        path: '/frontend'
       },
       {
         title: 'Back-End',
@@ -77,30 +80,30 @@ const content:ContentModel =
         path: '/extras'
       }
     ]
-    },
-  contact:{
-      title: 'contact',
-      path: '/contact',
-      markdown: contact_md,
-    },
-    projects:[
+  },
+  contact: {
+    title: 'contact',
+    path: '/contact',
+    markdown: contact_md,
+  },
+  projects: [
+    {
+      title: "portfolio",
+      path: '/portfolio',
+      short: "Here I endeavour to showcase my abilities and thought-process. Both in regards to previous project and current",
+      thumb: portfolio_thumb,
+      overview:
       {
-        title:"portfolio",
-        path: '/portfolio',
-        short:"Here I endeavour to showcase my abilities and thought-process. Both in regards to previous project and current",
-        thumb: portfolio_thumb,
-        overview:
-          {
-            title: 'Overview',
-            markdown: portfolio_overview_md,
-            path: '/overview'
+        title: 'Overview',
+        markdown: portfolio_overview_md,
+        path: '/overview'
+      },
+      stack: [
+        {
+          title: 'React',
+          markdown: portfolio_react_md,
+          path: '/react'
         },
-        stack:[
-          {
-            title: 'React',
-            markdown: portfolio_react_md,
-            path: '/react'
-          },
         {
           title: 'Content',
           markdown: portfolio_content_md,
@@ -111,69 +114,94 @@ const content:ContentModel =
           markdown: portfolio_digitalOcean_md,
           path: '/digitalOcean'
         }
-        
-        ]
-      },   {
-        title:"salty noodles",
-        path: '/noodle',
-        short:"a side-project from my training at </salt>",
-        thumb: noodle_thumb,
-        overview:
-          {
-            title: 'overview',
-            markdown: noodle_overview_md,
-            path: '/overview'
-        },
-        stack:[{
-            title: 'elm',
-            markdown: noodle_elm_md,
-            path: '/elm'
-          },{
-            title: 'css',
-            markdown: noodle_css_md,
-            path: '/css'
-          },{
-            title: 'unsplash',
-            markdown: noodle_api_md,
-            path: '/api'
-          },{
-            title: 'node',
-            markdown: noodle_node_md,
-            path: '/node'
-          },{
-            title: 'docker',
-            markdown: noodle_docker_md,
-            path: '/docker'
-          },{
-            title: 'heroku',
-            markdown: noodle_heroku_md,
-            path: '/heroku'
-        }
-      ]},
+
+      ]
+    }, {
+      title: "salty noodles",
+      path: '/noodle',
+      short: "a side-project from my training at </salt>",
+      thumb: noodle_thumb,
+      overview:
       {
-        title:"coming soon..",
-        path: '/soon',
-        short:"Future project and project not yet showcased",
-        thumb: placeholder_thumb,
-        overview:
-          {
-            title: 'overview',
-            markdown: soon_overview_md,
-            path: '/overview'
+        title: 'overview',
+        markdown: noodle_overview_md,
+        path: '/overview'
+      },
+      stack: [{
+        title: 'elm',
+        markdown: noodle_elm_md,
+        path: '/elm'
+      }, {
+        title: 'css',
+        markdown: noodle_css_md,
+        path: '/css'
+      }, {
+        title: 'unsplash',
+        markdown: noodle_api_md,
+        path: '/api'
+      }, {
+        title: 'node',
+        markdown: noodle_node_md,
+        path: '/node'
+      }, {
+        title: 'docker',
+        markdown: noodle_docker_md,
+        path: '/docker'
+      }, {
+        title: 'heroku',
+        markdown: noodle_heroku_md,
+        path: '/heroku'
+      }
+      ]
+    },
+    {
+      title: "misc projects",
+      path: '/misc_projects',
+      short: "A collection of projects that do not need an entire stack illustrated",
+      thumb: placeholder_thumb,
+      overview:
+      {
+        title: 'Overview',
+        markdown: misc_overview_md,
+        path: '/overview'
+      },
+      stack: [
+        {
+          title: 'Hitomezashi',
+          markdown: misc_HitomezashiStiches_md,
+          path: '/Hitomezashi'
         },
-        stack:[{
-            title: 'amity',
-            markdown: soon_amity_md,
-            path: '/amity'
-        },{
-            title: 'unsplash',
-            markdown: soon_unsplash_md,
-            path: '/unsplash'
-        },{
-            title: 'hackday',
-            markdown: soon_hackday_md,
-            path: '/hackday'
-        },]
-      }]
+        {
+          title: 'cache warmer',
+          markdown: misc_warmer_md,
+          path: '/warmer'
+        },
+      ]
+    },
+    {
+      title: "coming soon..",
+      path: '/soon',
+      short: "Future project and project not yet showcased",
+      thumb: placeholder_thumb,
+      overview:
+      {
+        title: 'overview',
+        markdown: soon_overview_md,
+        path: '/overview'
+      },
+      stack: [{
+        title: 'amity',
+        markdown: soon_amity_md,
+        path: '/amity'
+      }, {
+        title: 'unsplash',
+        markdown: soon_unsplash_md,
+        path: '/unsplash'
+      }, {
+        title: 'hackday',
+        markdown: soon_hackday_md,
+        path: '/hackday'
+      },]
+    }]
 }
 export { content }
