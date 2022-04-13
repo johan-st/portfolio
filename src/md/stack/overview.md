@@ -1,9 +1,9 @@
-# Who Am I?
+# Who am I?
 
-In December 2020 I graduated from School of applied technology [</salt>](https://salt.dev/) with 30 fellow students. We were selected among 1500 candidates for a three months accelerated career program to become a **Full-Stack JavaScript developer**.
+My life as a developer started in ernest in December 2020 when I graduated from School of applied technology [</salt>](https://salt.dev/) with 30 fellow students. We were selected among 1500 candidates for a three months accelerated career program to become a **Full-Stack JavaScript developer**. I was engaged as a consultant after my first interview and has since worked full time as a fullstack web developer.  
 
-My maxim is _"strive for continious and sustainable improvement"_. I am a **problem solver** by nature and work hard to find pragmatic solutions within the given constraints.
+My maxim is _"strive for continious and sustainable improvement"_. I am a **problem solver** by nature and work hard to find pragmatic solutions within the given constraints. 
 
-Now it's time to get started working as a developer! If you are interested in hiring me, take a look at my [LinkedIn](https://www.linkedin.com/in/johan-strand-99a12b44/) or write me an [email](mailto:jst@jst.dev).
+On this page you will find my _"tech-stack"_, some of my [projects](/projects) and the specific stack for each project. [This portfolio](/projects/portfolio) for instance.
 
-On this page you will find my tech-stack, my [projects](/projects) and the specific stack for each project. [This portfolio's stack for instance](/projects/portfolio) 
+Also, consider yourself cordially invited to peruse my [github page](https://github.com/johan-st) or visit me at [linkedIn](https://www.linkedin.com/in/johan-strand-99a12b44).
