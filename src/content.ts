@@ -25,6 +25,10 @@ import * as contact_md from './md/contact.md'
 import * as misc_overview_md from './md/misc/overview.md'
 import * as misc_warmer_md from './md/misc/warmer.md'
 import * as misc_HitomezashiStiches_md from './md/misc/HitomezashiStiches.md'
+import * as misc_goImageServer_md from './md/misc/go-image-server.md'
+import * as misc_goSPA_md from './md/misc/go-spa-server.md'
+import * as misc_logHub_md from './md/misc/logHub.md'
+import * as misc_projectMimer_md from './md/misc/project-mimer.md'
 import portfolio_thumb from './thumbs/portfolio.png'
 import noodle_thumb from './thumbs/noodle.png'
 import placeholder_thumb from './thumbs/placeholder.png'
@@ -176,32 +180,27 @@ const content: ContentModel =
           markdown: misc_warmer_md,
           path: '/warmer'
         },
+        {
+          title: 'go-image-server',
+          markdown: misc_goImageServer_md,
+          path: '/go-image-server'
+        },
+        {
+          title: 'go-SPA-server',
+          markdown: misc_goSPA_md,
+          path: '/goSPA'
+        },
+        {
+          title: 'log hub',
+          markdown: misc_logHub_md,
+          path: '/log-hub'
+        },
+        {
+          title: 'project Mimer',
+          markdown: misc_projectMimer_md,
+          path: '/Project-mimer'
+        },
       ]
-    },
-    {
-      title: "coming soon..",
-      path: '/soon',
-      short: "Future project and project not yet showcased",
-      thumb: placeholder_thumb,
-      overview:
-      {
-        title: 'overview',
-        markdown: soon_overview_md,
-        path: '/overview'
-      },
-      stack: [{
-        title: 'amity',
-        markdown: soon_amity_md,
-        path: '/amity'
-      }, {
-        title: 'unsplash',
-        markdown: soon_unsplash_md,
-        path: '/unsplash'
-      }, {
-        title: 'hackday',
-        markdown: soon_hackday_md,
-        path: '/hackday'
-      },]
     }]
 }
 export { content }
