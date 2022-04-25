@@ -22,13 +22,13 @@ import * as noodle_heroku_md from './md/noodle/heroku.md'
 import * as noodle_node_md from './md/noodle/node.md'
 import * as noodle_overview_md from './md/noodle/overview.md'
 import * as contact_md from './md/contact.md'
-import * as misc_overview_md from './md/misc/overview.md'
-import * as misc_warmer_md from './md/misc/warmer.md'
-import * as misc_HitomezashiStiches_md from './md/misc/HitomezashiStiches.md'
-import * as misc_goImageServer_md from './md/misc/go-image-server.md'
-import * as misc_goSPA_md from './md/misc/go-spa-server.md'
-import * as misc_logHub_md from './md/misc/logHub.md'
-import * as misc_projectMimer_md from './md/misc/project-mimer.md'
+import * as go_overview_md from './md/go/overview.md'
+import * as go_warmer_md from './md/go/warmer.md'
+import * as go_HitomezashiStiches_md from './md/go/HitomezashiStiches.md'
+import * as go_goImageServer_md from './md/go/go-image-server.md'
+import * as go_goSPA_md from './md/go/go-spa-server.md'
+import * as go_logHub_md from './md/go/logHub.md'
+import * as go_projectMimer_md from './md/go/project-mimer.md'
 import portfolio_thumb from './thumbs/portfolio.png'
 import noodle_thumb from './thumbs/noodle.png'
 import placeholder_thumb from './thumbs/placeholder.png'
@@ -159,46 +159,46 @@ const content: ContentModel =
       ]
     },
     {
-      title: "misc projects",
-      path: '/misc_projects',
-      short: "A collection of projects that do not need an entire stack illustrated",
+      title: "go projects",
+      path: '/go_projects',
+      short: "A collection of tools and toys built in go",
       thumb: placeholder_thumb,
       overview:
       {
         title: 'Overview',
-        markdown: misc_overview_md,
+        markdown: go_overview_md,
         path: '/overview'
       },
       stack: [
         {
-          title: 'Hitomezashi',
-          markdown: misc_HitomezashiStiches_md,
-          path: '/Hitomezashi'
+          title: 'hitomezashi',
+          markdown: go_HitomezashiStiches_md,
+          path: '/hitomezashi'
         },
         {
           title: 'cache warmer',
-          markdown: misc_warmer_md,
+          markdown: go_warmer_md,
           path: '/warmer'
         },
         {
-          title: 'go-image-server',
-          markdown: misc_goImageServer_md,
-          path: '/go-image-server'
+          title: 'image-server',
+          markdown: go_goImageServer_md,
+          path: '/image-server'
         },
         {
-          title: 'go-SPA-server',
-          markdown: misc_goSPA_md,
-          path: '/goSPA'
+          title: 'SPA-server',
+          markdown: go_goSPA_md,
+          path: '/SPA-server'
         },
         {
           title: 'log hub',
-          markdown: misc_logHub_md,
+          markdown: go_logHub_md,
           path: '/log-hub'
         },
         {
           title: 'project Mimer',
-          markdown: misc_projectMimer_md,
-          path: '/Project-mimer'
+          markdown: go_projectMimer_md,
+          path: '/project-mimer'
         },
       ]
     }]
