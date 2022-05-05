@@ -1,6 +1,6 @@
 # HitomezashiStiches
 
-generate Hitomezashi Stitch patterns
+small go project that generates Hitomezashi Stitch patterns
 
 ## Inspiration
 
