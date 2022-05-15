@@ -1,4 +1,4 @@
-link: [live app](https://johan.styldesign.se/)
+link: [live app](https:/jst.dev/)
 
 # Portfolio
 

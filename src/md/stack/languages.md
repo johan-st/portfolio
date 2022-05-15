@@ -1,6 +1,6 @@
 # languages
 
-In my most recent projects I have almost exclusively used **typescript** over **javascript**.
+During my time at <\/salt> I moved towards using **typescript** over **javascript** in back-end applications. 
 
 - **TypeScript**
 - **JavaScript**
@@ -16,6 +16,3 @@ _some experience with..._
 - **python**
 - **java**
 
-## sidenote
-
-I have started looking into **haskell** as a means to experiment with a fully functional stack in conjuction with **elm**. I belive this could be an intresting combination although **go** is my prefered serverside language at the moment
